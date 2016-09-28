@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		A39F49051D9BA2CF002755A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39F49041D9BA2CF002755A3 /* AppDelegate.swift */; };
-		A39F49071D9BA2CF002755A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39F49061D9BA2CF002755A3 /* ViewController.swift */; };
 		A39F490A1D9BA2CF002755A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39F49081D9BA2CF002755A3 /* Main.storyboard */; };
 		A39F490D1D9BA2CF002755A3 /* Jahesh_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A39F490B1D9BA2CF002755A3 /* Jahesh_Project.xcdatamodeld */; };
 		A39F490F1D9BA2CF002755A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39F490E1D9BA2CF002755A3 /* Assets.xcassets */; };
 		A39F49121D9BA2CF002755A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39F49101D9BA2CF002755A3 /* LaunchScreen.storyboard */; };
+		A39F491E1D9BCD50002755A3 /* TopSellersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39F491D1D9BCD50002755A3 /* TopSellersCell.swift */; };
+		A39F49201D9BD186002755A3 /* NewProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39F491F1D9BD186002755A3 /* NewProductsCell.swift */; };
+		A39F49221D9BD6BA002755A3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39F49211D9BD6BA002755A3 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A39F49011D9BA2CE002755A3 /* Jahesh-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jahesh-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39F49041D9BA2CF002755A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A39F49061D9BA2CF002755A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A39F49091D9BA2CF002755A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A39F490C1D9BA2CF002755A3 /* Jahesh_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jahesh_Project.xcdatamodel; sourceTree = "<group>"; };
 		A39F490E1D9BA2CF002755A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A39F49111D9BA2CF002755A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A39F49131D9BA2CF002755A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39F491D1D9BCD50002755A3 /* TopSellersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopSellersCell.swift; sourceTree = "<group>"; };
+		A39F491F1D9BD186002755A3 /* NewProductsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProductsCell.swift; sourceTree = "<group>"; };
+		A39F49211D9BD6BA002755A3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				A39F49041D9BA2CF002755A3 /* AppDelegate.swift */,
-				A39F49061D9BA2CF002755A3 /* ViewController.swift */,
+				A39F49211D9BD6BA002755A3 /* MainViewController.swift */,
+				A39F491F1D9BD186002755A3 /* NewProductsCell.swift */,
+				A39F491D1D9BCD50002755A3 /* TopSellersCell.swift */,
 				A39F49081D9BA2CF002755A3 /* Main.storyboard */,
 				A39F490E1D9BA2CF002755A3 /* Assets.xcassets */,
 				A39F49101D9BA2CF002755A3 /* LaunchScreen.storyboard */,
@@ -94,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Ali-Soume";
 				TargetAttributes = {
 					A39F49001D9BA2CE002755A3 = {
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A39F49071D9BA2CF002755A3 /* ViewController.swift in Sources */,
+				A39F491E1D9BCD50002755A3 /* TopSellersCell.swift in Sources */,
 				A39F49051D9BA2CF002755A3 /* AppDelegate.swift in Sources */,
+				A39F49221D9BD6BA002755A3 /* MainViewController.swift in Sources */,
+				A39F49201D9BD186002755A3 /* NewProductsCell.swift in Sources */,
 				A39F490D1D9BA2CF002755A3 /* Jahesh_Project.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,8 +188,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -226,8 +236,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -246,6 +258,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -256,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jahesh-Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Soume.Jahesh-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -267,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jahesh-Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Soume.Jahesh-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +307,7 @@
 				A39F49181D9BA2CF002755A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
