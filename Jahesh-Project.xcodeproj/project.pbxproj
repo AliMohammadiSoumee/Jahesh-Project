@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A344022A1D9D0AC20012EDA1 /* irsans_p30download.com.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A34402291D9D061D0012EDA1 /* irsans_p30download.com.ttf */; };
 		A39F49051D9BA2CF002755A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39F49041D9BA2CF002755A3 /* AppDelegate.swift */; };
 		A39F490A1D9BA2CF002755A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39F49081D9BA2CF002755A3 /* Main.storyboard */; };
 		A39F490D1D9BA2CF002755A3 /* Jahesh_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A39F490B1D9BA2CF002755A3 /* Jahesh_Project.xcdatamodeld */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A34402291D9D061D0012EDA1 /* irsans_p30download.com.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = irsans_p30download.com.ttf; sourceTree = "<group>"; };
 		A39F49011D9BA2CE002755A3 /* Jahesh-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jahesh-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39F49041D9BA2CF002755A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A39F49091D9BA2CF002755A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				A39F491D1D9BCD50002755A3 /* TopSellersCell.swift */,
 				A39F49081D9BA2CF002755A3 /* Main.storyboard */,
 				A39F490E1D9BA2CF002755A3 /* Assets.xcassets */,
+				A34402291D9D061D0012EDA1 /* irsans_p30download.com.ttf */,
 				A39F49101D9BA2CF002755A3 /* LaunchScreen.storyboard */,
 				A39F49131D9BA2CF002755A3 /* Info.plist */,
 				A39F490B1D9BA2CF002755A3 /* Jahesh_Project.xcdatamodeld */,
@@ -105,6 +108,7 @@
 				TargetAttributes = {
 					A39F49001D9BA2CE002755A3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A344022A1D9D0AC20012EDA1 /* irsans_p30download.com.ttf in Resources */,
 				A39F49121D9BA2CF002755A3 /* LaunchScreen.storyboard in Resources */,
 				A39F490F1D9BA2CF002755A3 /* Assets.xcassets in Resources */,
 				A39F490A1D9BA2CF002755A3 /* Main.storyboard in Resources */,
@@ -273,6 +278,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Soume.Jahesh-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -285,6 +291,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Soume.Jahesh-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

@@ -44,5 +44,9 @@
 	</array>
 	<key>Use Legacy Swift Language Version</key>
 	<false/>
+	<key>Font provided by application</key>
+	<array>
+		<string>irsans_p30download.com.ttf</string>
+	</array>
 </dict>
 </plist>

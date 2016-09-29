@@ -9,30 +9,33 @@
 import UIKit
 
 class TopSellersCell: UICollectionViewCell {
-    @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var priceLabel = UILabel()
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
-    
+    var initialized: Bool = false
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        print("ali")
+        self.initialize()
     }
     
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
+        self.initialize()
     }
     
-//    override init(frame: CGRect) {
-//        priceLabel.text = "cool!"
-//        titleLabel.text = "shit!"
-//        imageView.image = UIImage(named: "Gheyme")
-//        super.init(frame: frame)
-//    }
-//    
-//    required init(coder aDecoder: NSCoder) {
-//        super.init(coder: aDecoder)!
-//    }
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        self.contentView.transform = CGAffineTransform(scaleX: -1, y: 1)
+        self.titleLabel.text = "لامپ"
+        self.layer.cornerRadius = 5
+        self.imageView.layer.cornerRadius = 5
+    }
     
+    func initialize() {
+        if !initialized {
+            initialized = true
+        }
+    }
 }
 
