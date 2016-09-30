@@ -82,14 +82,17 @@
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VhH-Eq-Rbl">
                                                         <subviews>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pOo-xQ-VZI">
+                                                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pOo-xQ-VZI">
+                                                                <frame key="frameInset" minX="64.5" minY="12.5" width="171.5" height="25"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مشاهده لیست دسته بندی محصولات" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzy-Db-PhJ">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="مشاهده لیست دسته بندی محصولات" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzy-Db-PhJ">
+                                                                        <frame key="frameInset" minY="5.5" width="151.5" height="14"/>
                                                                         <fontDescription key="fontDescription" name="IranianSans" family="Iranian Sans" pointSize="12"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulleted_list_filled" translatesAutoresizingMaskIntoConstraints="NO" id="OlO-tD-G2B">
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bulleted_list_filled" translatesAutoresizingMaskIntoConstraints="NO" id="OlO-tD-G2B">
+                                                                        <frame key="frameInset" minX="156.5" minY="5" width="15" height="15"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="OlO-tD-G2B" secondAttribute="height" multiplier="1:1" id="hd0-AE-elv"/>
                                                                             <constraint firstAttribute="width" constant="15" id="l5e-oL-F0U"/>
@@ -143,7 +146,8 @@
                                                                     <action selector="listOfNewProducts:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HLd-1e-m4D"/>
                                                                 </connections>
                                                             </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="جدیدترین ها" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuO-mK-FXl">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="جدیدترین ها" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuO-mK-FXl">
+                                                                <frame key="frameInset" minX="301" width="74" height="40"/>
                                                                 <fontDescription key="fontDescription" name="IranianSans" family="Iranian Sans" pointSize="17"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -170,7 +174,7 @@
                                                         </collectionViewFlowLayout>
                                                         <cells>
                                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NewProductsCellIdent" id="ckH-bp-udr" customClass="NewProductsCell" customModule="Jahesh_Project" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="5" width="170" height="230"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="170" height="230"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                                     <rect key="frame" x="0.0" y="0.0" width="170" height="230"/>
@@ -258,7 +262,8 @@
                                                                     <action selector="listOfTopSellerProducts:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ftf-N1-Slb"/>
                                                                 </connections>
                                                             </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="پرفروش‌ترین‌ها" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZm-F6-0fb">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="پرفروش‌ترین‌ها" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZm-F6-0fb">
+                                                                <frame key="frameInset" minX="291" width="84" height="40"/>
                                                                 <fontDescription key="fontDescription" name="IranianSans" family="Iranian Sans" pointSize="17"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -285,7 +290,7 @@
                                                         </collectionViewFlowLayout>
                                                         <cells>
                                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TopSellersCellIdent" id="6pE-wA-3WD" customClass="TopSellersCell" customModule="Jahesh_Project" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="3" width="170" height="230"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="170" height="230"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                                     <rect key="frame" x="0.0" y="0.0" width="170" height="230"/>
@@ -402,10 +407,10 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="XNm-QR-dgG" secondAttribute="trailing" id="8U7-hL-oCr"/>
-                            <constraint firstItem="XNm-QR-dgG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Bvf-47-N3X"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XNm-QR-dgG" secondAttribute="bottom" id="MUR-kW-aTq"/>
                             <constraint firstItem="XNm-QR-dgG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="esO-qW-Ona"/>
                             <constraint firstItem="TKu-om-uYI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="oqU-D7-IMc"/>
+                            <constraint firstItem="XNm-QR-dgG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="p6m-88-6Iy"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="جهش" id="rfW-ho-urW">
@@ -440,7 +445,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xvC-f5-B02" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" id="42r-GY-y7X">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" contentMode="scaleToFill" id="42r-GY-y7X">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.9882352941176471" green="0.34901960784313724" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
