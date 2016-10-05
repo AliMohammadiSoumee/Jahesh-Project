@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1010FA439F8F04111A7B154A /* Pods_Jahesh_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C576CCD4A3B853E1324855 /* Pods_Jahesh_Project.framework */; };
+		A314DF0A1DA5164000C4360D /* DataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A314DF091DA5164000C4360D /* DataObject.swift */; };
 		A344022A1D9D0AC20012EDA1 /* irsans_p30download.com.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A34402291D9D061D0012EDA1 /* irsans_p30download.com.ttf */; };
+		A34A1D5E1DA51EFF003C2FC5 /* TreeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A1D5D1DA51EFF003C2FC5 /* TreeTableViewCell.swift */; };
+		A37965661DA4E9B9005CF48B /* CategoryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37965651DA4E9B9005CF48B /* CategoryListVC.swift */; };
 		A39F49051D9BA2CF002755A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39F49041D9BA2CF002755A3 /* AppDelegate.swift */; };
 		A39F490A1D9BA2CF002755A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39F49081D9BA2CF002755A3 /* Main.storyboard */; };
 		A39F490D1D9BA2CF002755A3 /* Jahesh_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A39F490B1D9BA2CF002755A3 /* Jahesh_Project.xcdatamodeld */; };
@@ -19,7 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F3A47F03E882D84F7C55118 /* Pods-Jahesh-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jahesh-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jahesh-Project/Pods-Jahesh-Project.release.xcconfig"; sourceTree = "<group>"; };
+		A314DF091DA5164000C4360D /* DataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataObject.swift; sourceTree = "<group>"; };
 		A34402291D9D061D0012EDA1 /* irsans_p30download.com.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = irsans_p30download.com.ttf; sourceTree = "<group>"; };
+		A34A1D5D1DA51EFF003C2FC5 /* TreeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeTableViewCell.swift; sourceTree = "<group>"; };
+		A37965651DA4E9B9005CF48B /* CategoryListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListVC.swift; sourceTree = "<group>"; };
 		A39F49011D9BA2CE002755A3 /* Jahesh-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jahesh-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39F49041D9BA2CF002755A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A39F49091D9BA2CF002755A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -30,6 +38,8 @@
 		A39F491D1D9BCD50002755A3 /* TopSellersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopSellersCell.swift; sourceTree = "<group>"; };
 		A39F491F1D9BD186002755A3 /* NewProductsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProductsCell.swift; sourceTree = "<group>"; };
 		A39F49211D9BD6BA002755A3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BD9E8DD1E9F82726C4873D52 /* Pods-Jahesh-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jahesh-Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jahesh-Project/Pods-Jahesh-Project.debug.xcconfig"; sourceTree = "<group>"; };
+		D3C576CCD4A3B853E1324855 /* Pods_Jahesh_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jahesh_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1010FA439F8F04111A7B154A /* Pods_Jahesh_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		637827CB5AF540AFCC215E13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD9E8DD1E9F82726C4873D52 /* Pods-Jahesh-Project.debug.xcconfig */,
+				0F3A47F03E882D84F7C55118 /* Pods-Jahesh-Project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		875C241DD4CD9B21002E80B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3C576CCD4A3B853E1324855 /* Pods_Jahesh_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A39F48F81D9BA2CE002755A3 = {
 			isa = PBXGroup;
 			children = (
 				A39F49031D9BA2CE002755A3 /* Jahesh-Project */,
 				A39F49021D9BA2CE002755A3 /* Products */,
+				637827CB5AF540AFCC215E13 /* Pods */,
+				875C241DD4CD9B21002E80B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +96,9 @@
 				A39F49211D9BD6BA002755A3 /* MainViewController.swift */,
 				A39F491F1D9BD186002755A3 /* NewProductsCell.swift */,
 				A39F491D1D9BCD50002755A3 /* TopSellersCell.swift */,
+				A37965651DA4E9B9005CF48B /* CategoryListVC.swift */,
+				A34A1D5D1DA51EFF003C2FC5 /* TreeTableViewCell.swift */,
+				A314DF091DA5164000C4360D /* DataObject.swift */,
 				A39F49081D9BA2CF002755A3 /* Main.storyboard */,
 				A39F490E1D9BA2CF002755A3 /* Assets.xcassets */,
 				A34402291D9D061D0012EDA1 /* irsans_p30download.com.ttf */,
@@ -83,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A39F49161D9BA2CF002755A3 /* Build configuration list for PBXNativeTarget "Jahesh-Project" */;
 			buildPhases = (
+				58E166F5F1641DF17F6CD186 /* [CP] Check Pods Manifest.lock */,
 				A39F48FD1D9BA2CE002755A3 /* Sources */,
 				A39F48FE1D9BA2CE002755A3 /* Frameworks */,
 				A39F48FF1D9BA2CE002755A3 /* Resources */,
+				AEAF3C181D649925D2C6CD5B /* [CP] Embed Pods Frameworks */,
+				3F3B18514CC56DF978A5005F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +180,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F3B18514CC56DF978A5005F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jahesh-Project/Pods-Jahesh-Project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E166F5F1641DF17F6CD186 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AEAF3C181D649925D2C6CD5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jahesh-Project/Pods-Jahesh-Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A39F48FD1D9BA2CE002755A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -151,7 +235,10 @@
 			files = (
 				A39F491E1D9BCD50002755A3 /* TopSellersCell.swift in Sources */,
 				A39F49051D9BA2CF002755A3 /* AppDelegate.swift in Sources */,
+				A314DF0A1DA5164000C4360D /* DataObject.swift in Sources */,
+				A37965661DA4E9B9005CF48B /* CategoryListVC.swift in Sources */,
 				A39F49221D9BD6BA002755A3 /* MainViewController.swift in Sources */,
+				A34A1D5E1DA51EFF003C2FC5 /* TreeTableViewCell.swift in Sources */,
 				A39F49201D9BD186002755A3 /* NewProductsCell.swift in Sources */,
 				A39F490D1D9BA2CF002755A3 /* Jahesh_Project.xcdatamodeld in Sources */,
 			);
@@ -271,6 +358,7 @@
 		};
 		A39F49171D9BA2CF002755A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9E8DD1E9F82726C4873D52 /* Pods-Jahesh-Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jahesh-Project/Info.plist";
@@ -284,6 +372,7 @@
 		};
 		A39F49181D9BA2CF002755A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3A47F03E882D84F7C55118 /* Pods-Jahesh-Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jahesh-Project/Info.plist";

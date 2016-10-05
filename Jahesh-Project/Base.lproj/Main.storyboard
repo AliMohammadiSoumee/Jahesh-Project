@@ -82,17 +82,14 @@
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VhH-Eq-Rbl">
                                                         <subviews>
-                                                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pOo-xQ-VZI">
-                                                                <frame key="frameInset" minX="64.5" minY="12.5" width="171.5" height="25"/>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pOo-xQ-VZI">
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="مشاهده لیست دسته بندی محصولات" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzy-Db-PhJ">
-                                                                        <frame key="frameInset" minY="5.5" width="151.5" height="14"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مشاهده لیست دسته بندی محصولات" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzy-Db-PhJ">
                                                                         <fontDescription key="fontDescription" name="IranianSans" family="Iranian Sans" pointSize="12"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bulleted_list_filled" translatesAutoresizingMaskIntoConstraints="NO" id="OlO-tD-G2B">
-                                                                        <frame key="frameInset" minX="156.5" minY="5" width="15" height="15"/>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulleted_list_filled" translatesAutoresizingMaskIntoConstraints="NO" id="OlO-tD-G2B">
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="OlO-tD-G2B" secondAttribute="height" multiplier="1:1" id="hd0-AE-elv"/>
                                                                             <constraint firstAttribute="width" constant="15" id="l5e-oL-F0U"/>
@@ -146,8 +143,7 @@
                                                                     <action selector="listOfNewProducts:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HLd-1e-m4D"/>
                                                                 </connections>
                                                             </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="جدیدترین ها" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuO-mK-FXl">
-                                                                <frame key="frameInset" minX="301" width="74" height="40"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="جدیدترین ها" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuO-mK-FXl">
                                                                 <fontDescription key="fontDescription" name="IranianSans" family="Iranian Sans" pointSize="17"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -174,7 +170,7 @@
                                                         </collectionViewFlowLayout>
                                                         <cells>
                                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NewProductsCellIdent" id="ckH-bp-udr" customClass="NewProductsCell" customModule="Jahesh_Project" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="0.0" width="170" height="230"/>
+                                                                <rect key="frame" x="0.0" y="5" width="170" height="230"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                                     <rect key="frame" x="0.0" y="0.0" width="170" height="230"/>
@@ -262,8 +258,7 @@
                                                                     <action selector="listOfTopSellerProducts:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ftf-N1-Slb"/>
                                                                 </connections>
                                                             </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="پرفروش‌ترین‌ها" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZm-F6-0fb">
-                                                                <frame key="frameInset" minX="291" width="84" height="40"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="پرفروش‌ترین‌ها" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZm-F6-0fb">
                                                                 <fontDescription key="fontDescription" name="IranianSans" family="Iranian Sans" pointSize="17"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -290,7 +285,7 @@
                                                         </collectionViewFlowLayout>
                                                         <cells>
                                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TopSellersCellIdent" id="6pE-wA-3WD" customClass="TopSellersCell" customModule="Jahesh_Project" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="0.0" width="170" height="230"/>
+                                                                <rect key="frame" x="0.0" y="3" width="170" height="230"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                                     <rect key="frame" x="0.0" y="0.0" width="170" height="230"/>
@@ -429,6 +424,7 @@
                         <outlet property="mainView" destination="8bC-Xf-vdC" id="uuq-r4-Ce5"/>
                         <outlet property="newProductsCollectionView" destination="MQY-7a-cxI" id="BYI-TW-Kac"/>
                         <outlet property="topSellersCollectionView" destination="Rfc-wr-YQG" id="rIo-Zn-XSv"/>
+                        <segue destination="YN3-32-LEk" kind="show" identifier="ShowCategoryList" id="25w-gK-W0f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -440,12 +436,48 @@
             </objects>
             <point key="canvasLocation" x="1216" y="350.82458770614693"/>
         </scene>
+        <!--Category ListVC-->
+        <scene sceneID="eaJ-7B-QOh">
+            <objects>
+                <viewController id="YN3-32-LEk" customClass="CategoryListVC" customModule="Jahesh_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v72-bH-fGd"/>
+                        <viewControllerLayoutGuide type="bottom" id="3ZQ-gZ-kLj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u6x-8U-ePd">
+                        <rect key="frame" x="0.0" y="64" width="400" height="1936"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SG7-98-afc">
+                                <color key="backgroundColor" red="0.64183506670000001" green="0.86746788379999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="TUR-44-SBT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SG7-98-afc" firstAttribute="leading" secondItem="u6x-8U-ePd" secondAttribute="leading" constant="10" id="5DJ-hE-aTw"/>
+                            <constraint firstAttribute="trailing" secondItem="SG7-98-afc" secondAttribute="trailing" constant="10" id="XW5-wn-l64"/>
+                            <constraint firstItem="SG7-98-afc" firstAttribute="top" secondItem="v72-bH-fGd" secondAttribute="bottom" constant="10" id="dpq-oS-lFY"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="mainContentView" destination="u6x-8U-ePd" id="QWg-CN-xqU"/>
+                        <outlet property="searchView" destination="SG7-98-afc" id="VbD-HV-WKq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Xk-mA-aLU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2066" y="351"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="sQU-n9-LXu">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xvC-f5-B02" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" clipsSubviews="YES" contentMode="scaleToFill" id="42r-GY-y7X">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" id="42r-GY-y7X">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.9882352941176471" green="0.34901960784313724" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

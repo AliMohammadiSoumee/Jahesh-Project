@@ -30,23 +30,27 @@ class MainViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         topSellersCollectionView.transform = CGAffineTransform(scaleX: -1, y: 1)
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        
     }
+    
     
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         let page = Int(scrollView.contentOffset.x / scrollView.bounds.size.width)
         headerPageView.currentPage = page
     }
     
+    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         
     }
     
+    
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
+    
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == newProductsCollectionView{
@@ -60,6 +64,7 @@ class MainViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         }
     }
     
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         var cell = UICollectionViewCell()
@@ -70,13 +75,7 @@ class MainViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
             cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TopSellersCellIdent", for: indexPath) as! TopSellersCell
         }
         return cell
-        
     }
-    
-    
-    
-    
-    
     
     
     func setHeaderScrollView(){
@@ -140,18 +139,11 @@ class MainViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
             headerContentView.addConstraint(leftConstraint)
             headerContentView.addConstraint(topConstraint)
             
-            
-            
-            
             imageView.image = UIImage(named: "\(image)")
             
             def = imageView
         }
     }
-    
-    
-
-    
     
         
     @IBAction func listOfNewProducts(_ sender: AnyObject) {
@@ -164,7 +156,14 @@ class MainViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     
     
     @IBAction func mainPageButtonAction(_ sender: AnyObject) {
-        
+        performSegue(withIdentifier: "ShowCategoryList", sender: nil)
         print("yes")
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowCategoryList" {
+            let categoryList: CategoryListVC = segue.destination as! CategoryListVC
+        }
     }
 }

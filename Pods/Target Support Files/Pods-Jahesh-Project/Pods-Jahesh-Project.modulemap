@@ -1,0 +1,6 @@
+framework module Pods_Jahesh_Project {
+  umbrella header "Pods-Jahesh-Project-umbrella.h"
+
+  export *
+  module * { export * }
+}
