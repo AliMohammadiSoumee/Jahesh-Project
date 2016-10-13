@@ -7,123 +7,209 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030E4F1362CE05DD2D6AFDDEA14277FD /* RATreeView+TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3226DCC461BFD490CB6A65E3AE3AFC3 /* RATreeView+TableViewDelegate.m */; };
-		060E4A28972DBEC1606DE76BCF583723 /* RATreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C4636964112EDCCC2DDA5ED2282E2782 /* RATreeNode.m */; };
-		0A5034FED5C500E1CDC91D1BAB24E361 /* RATreeView+TableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8556D5CA7E334E71B7C762393CC2B577 /* RATreeView+TableViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1429AE35503A132CD7AB172C7D4CE8BD /* RATreeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F94934031C1F7557B68A5C543F7D6A61 /* RATreeView-dummy.m */; };
-		18265794932F33FEFFEFFC29B21A63B4 /* RATreeView+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB40A13D58E99E9235CF4A93A82DE37 /* RATreeView+Private.m */; };
-		19F28DD961889C1A8594FF9973DD9190 /* RATreeNode_ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 421762E9B4CC29BA71F5295C0A3D1A19 /* RATreeNode_ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1DA0C1428D1F95644522A1C2F57342DA /* RABatchChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810CC5D3CA92284334380DED33EE7D4 /* RABatchChanges.m */; };
-		2AE0B3E3512C6649033309B1C4A0EBEE /* RATreeNodeCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A639237FFA55D216728974C948B16E /* RATreeNodeCollectionController.m */; };
-		2C1D101FA5482B8EF8BDA14874CA32C3 /* RATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D4E86A36B2B6B23B3E77ED00217F48 /* RATableView.m */; };
-		419A8478DAC226F7A1D8D812B763E777 /* RATreeNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8667847F246FE9E31BF3CD3619A24D /* RATreeNodeController.m */; };
-		477179F52A692AE561374B8BDCB98AA4 /* RATreeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6751CCB17BC954E8A6EC412B5D35319 /* RATreeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58829CF38B5969EBC6A8E97F291E0B31 /* Pods-Jahesh-Project-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A73493929F6B2384434A75E89724FD41 /* Pods-Jahesh-Project-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D64740D630619E45532BDE89C388015 /* RATreeNodeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 118424C4D4005A49C88C9468E569CFBC /* RATreeNodeItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6640868A385CABA3474396A3173E21BD /* RATreeView+TableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F740ACC735B05ACBC74AD7CFFC624524 /* RATreeView+TableViewDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6C7B926107B6A7FF2E35A538D0C5B06A /* RATreeView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0482298E9DD5EFF8E57E81B2AB5A8822 /* RATreeView+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7882F17F49899224DF673F1B5CCBEC0F /* RATreeNodeItem+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2F72DCC6D8293C0BF2C5555041659 /* RATreeNodeItem+Private.m */; };
-		7A9D1608A197686D2E8314A5F126E617 /* RATreeNodeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B73BD2BACCFAEC6A1FB81512C20F4FB /* RATreeNodeController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		80A0311769620443FABF841840F312C9 /* Pods-Jahesh-Project-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E57F70F5379296AEE698551A360B85AB /* Pods-Jahesh-Project-dummy.m */; };
-		889FB68DF85EDBDE6F032A5D585AA728 /* RATreeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F44073DEA5C5A8A367361C3CF85A918 /* RATreeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89DECD82A8DEDC9D8526F86479FF3F11 /* RATreeNodeCollectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE37936632F6A768FEF1150D04579FE /* RATreeNodeCollectionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8A43B3E41E7C733A75AECCCAA632F6D6 /* RATreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = EB341C3EEE192DDBAB3F968F20B33017 /* RATreeNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9B8948C2957425FDF0D57EADD4817BCB /* RATreeView+Enums.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CA02CB0523CC89E3EC27F0598BA9E9 /* RATreeView+Enums.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9D04E3746B1BB728959AE9A0FAD7360F /* RABatchChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C88E019C81151901D455B61CC11A5A0 /* RABatchChanges.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ABFAE1F09CD6EB7EA76136F793F83ABB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B095F8F456BBC6D8831CBD76442FB1CF /* RATreeNodeItem+ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DFA8573DE35C3020D4E04A120362DA7 /* RATreeNodeItem+ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B6CB533C93CE281F08AD79B226AFFF5B /* RATreeView_ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B69F436C09157DF8EA0BDE38A1FA2637 /* RATreeView_ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B92EAA5C87A5A1E9EA5EDEFBD4A2BBBC /* RATreeView+Enums.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D45B52E94788F55DEA4F72373C5C3EC /* RATreeView+Enums.m */; };
-		B931F5F2835B194175C4D3BA0F0C9976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C2E1387655E3D96F7BF93605DE3593AF /* RATreeNodeItem+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 616F31FA997C23C4E30AD23CBC30978C /* RATreeNodeItem+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C470A8434F924667798A0E288DECF948 /* RATableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CAF8B2C273310CADAE9F79899A7DC72 /* RATableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D03D7283E5F0D5B83349120ECD5BC8A5 /* RABatchChangeEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 08FCA79F7F6B422A557905FAEDC8E863 /* RABatchChangeEntity.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D7D04FAF0102CC7A628B73AB60A1B5DB /* RATreeView+TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B55160C13C2996A4BF310969C4BF58E /* RATreeView+TableViewDataSource.m */; };
-		D9F7280CE5B4D43F8768AD28FBD7A075 /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5A7D3C88994E7DB2A1AD040B18FC6 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */; };
-		DDD99DF275B5E7018E16B6B224E954BA /* RATreeNodeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 800C92C72FBE378E66C4BA4B07C80033 /* RATreeNodeItem.m */; };
-		EB0077BA96FDEC3934D962AF8307752D /* RATreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A086CA8DE8EB5176D947524ECD3B548B /* RATreeView.m */; };
-		EF4E818D52043A3DE5D2D292B2D84F74 /* RABatchChangeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5E4F473712DE2CD2B40B2B63D16BAD /* RABatchChangeEntity.m */; };
-		F56E0D185CB40E7B9241B9E2AA2610EC /* RATreeView+RATreeNodeCollectionControllerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 558C2921CA6D13AC2E7A8ED99F769123 /* RATreeView+RATreeNodeCollectionControllerDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		073F55F5D0B460E13198F9D4B238453E /* RATreeView+Enums.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F60DE02B2B39A315F94D7A7906C031 /* RATreeView+Enums.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0BEB46DD50755AE48C12ACEE419B788D /* UIColorRGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4185F5B91AED5AB6F2BD2B88BA7E97 /* UIColorRGBA.swift */; };
+		0C1B4E9FFB8B81E8833A3BAD537B1990 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D3922885D9D1544257782FE700189 /* Notifications.swift */; };
+		12118C354EFA36292F82A8D0CFCE45B2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C502113DE9750D51B71805A0DCEACE03 /* Request.swift */; };
+		16A5667304757EB7A093AB2EF724CF3B /* RATreeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D191A511B329E96FE74F97CE233514 /* RATreeView-dummy.m */; };
+		1F152682CA62AF599262390F43C0A6F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		210D358CA42BD549510FD94B39B32F9C /* RATreeNodeItem+ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E94D1067D02F9354A24BE903B4CABE4 /* RATreeNodeItem+ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2309B1913E8A54B78536A2960EF8BAE9 /* RATreeNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A945ECE00D9D740778C58DEC0A9539B /* RATreeNodeController.m */; };
+		3042E82F40C9453C803C9EE5029912D4 /* RATreeNodeCollectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 319DBB66C1EDCE2A8BF94AAA489B8DC2 /* RATreeNodeCollectionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3982B850C43B41BA6D25F440F0412E9B /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB4572B43DB2E29E5587C5503F0198B /* Timeline.swift */; };
+		4589169FE5DB001B04105A3C0BBAEC2E /* RABatchChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CC26AEC54CB981371D32DE4EA04C8C /* RABatchChanges.m */; };
+		4600B8EA1F2616B8F4EE43F90664CEA8 /* RATreeNodeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8282134A7278F85B2787020F30944784 /* RATreeNodeItem.m */; };
+		5FE14177798242D179B68C4869981EF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		62143065F94E53F437DCE5D7A998D66D /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01287308C516D2FC69B51BAE5333E4AB /* AFError.swift */; };
+		64EA0C41501516ABF9FF3A769C3BB1C8 /* RATreeNodeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E83EC2E15AE607083230FC400F2DA90F /* RATreeNodeItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66A5FEBDC5353AFCAB2B369E65DA0685 /* RATreeView+TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D113F9A9EFCC9E8A0D8902FED60A25 /* RATreeView+TableViewDelegate.m */; };
+		6909A75CC86F56E70A131E30F62E4D7E /* RATreeView+TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FABF0C9B96AFEB0E7DC15C2DFA897D65 /* RATreeView+TableViewDataSource.m */; };
+		6B1558862672FE8E1A12B2B6F0DA8A21 /* RATreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B2052290E53DDA536D3414EB30EDEB /* RATreeView.m */; };
+		755B8D640F28403CCCAEBAA8609564AD /* RATreeView+Enums.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F7187EB2A7ADA85E1ACC4B9F8154E2 /* RATreeView+Enums.m */; };
+		7B0F9ADA3E11B02C927A30A3A9D5AADB /* RATreeView_ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E29F496F1E18556F943E0E6EA228D140 /* RATreeView_ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BDD753F2380DB0D746348D3F1BE1DD9 /* UIColorRGBA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 394BC488F98C6B1EB658E02EB47491AE /* UIColorRGBA-dummy.m */; };
+		7CA5A9BA5246FDA8227233E310029392 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2949A66B46378C9EDE12E8297EEEB /* Alamofire.swift */; };
+		834AA1800734F3370026718D5F3D23ED /* RATreeNodeItem+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB3CC620DD6AAE0DC2A5C5943928FCF /* RATreeNodeItem+Private.m */; };
+		83FEA980268737943B98AD1F6A4D0C21 /* RATreeView.h in Headers */ = {isa = PBXBuildFile; fileRef = E37F867B181D9CAACE81DF71D00AC998 /* RATreeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86ED08F33B7D357932A9AB743E9D9EA7 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6BEE8BEA20D2AD91F4552D722A722 /* Response.swift */; };
+		8A529E2BC9B8CC5F5437BFB55BE8DD13 /* RATreeNodeItem+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F74601453624F3220F8DF129859832 /* RATreeNodeItem+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D463A0A4C65C02FDD5211F0F3C6F8B8 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F1C326DA65E85225757832EAC67961 /* Alamofire-dummy.m */; };
+		907AB123FBC8BC9340D5B7350CE828DF /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7F010DC42E5DD33035286B48D12274 /* SessionDelegate.swift */; };
+		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9289BC655DDF436A61E440FCE4F7D563 /* RATreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 235A015DF410BBB9151DF2D2F23DAA59 /* RATreeNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5366AB63F82D9958BACA1738A84B9C55 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96FD9D65547FCA61BFC226CDB70AE53B /* RATreeView+TableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 638C4F00EAA2C5B70C424A8BA6F10AA0 /* RATreeView+TableViewDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		993FD46DA3CD10C83983FC657BCBAB9E /* RATreeNodeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1456297F7C81353891F6DCEC7F62154B /* RATreeNodeController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9CD3BC84536C9CBF90A0403CFEBC4796 /* RATreeView+RATreeNodeCollectionControllerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 91D1061AB7ACBDE13E0D24E69B1A9CA9 /* RATreeView+RATreeNodeCollectionControllerDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FC2991D308E4556861CE50BF200912B /* RATableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C3B49EF9428C95BA1D485ECAD0D922 /* RATableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A23105AA5C2F2D50C44F7671133D3DEA /* RATreeView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA9AE4264C39D1E4EE13361C47E5C36 /* RATreeView+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A28A99F0229C8D83E6D78C7AD989CC41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A79AC30123B0C2177D67F6ED6A1B3215 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78CDB9E73C68FF9FEDD09FF2DF5D78 /* SessionManager.swift */; };
+		AF158CAAF4DD319009AFC855DC995D90 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D672074E59AC7A0A86A37B1C4A7D1 /* ParameterEncoding.swift */; };
+		B214E2CF183F29E3D78E3EF532B54DA4 /* Pods-Jahesh-Project-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A73493929F6B2384434A75E89724FD41 /* Pods-Jahesh-Project-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5489B4E6D67D7A1D599E8BB8179EB38 /* RABatchChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A6B3D062138627BC103880020BC763 /* RABatchChanges.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6223284DC9C4E48FC5FBC7AAF238217 /* RATreeView+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D79E240CFA75D3E6290EB669C7C60278 /* RATreeView+Private.m */; };
+		B7A5466FD71D1BE080DDA871C8C1D33E /* RATreeNode_ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0C26FC7A14FF8056E1C1F7FFA0C98D /* RATreeNode_ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8154C96802336E5DDA5CEE97C3180A0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9F8E2487BF59BCD26371D7BC7EF10 /* ResponseSerialization.swift */; };
+		BE72C119EAA3C620D1E6C16010E7DE57 /* RATreeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 810A9E12A809C07393370D2F014570EE /* RATreeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFA742963299A7AF2EC952D57BEFDCAA /* UIColorRGBA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54DC729DAEAADBD3B578B646A019ACA4 /* UIColorRGBA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0AEA97E7684DDAD56998C0AE198A433 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C95EAAA85997CD11242C7F3843BF5 /* ServerTrustPolicy.swift */; };
+		C7A3408350643ADE1018826C766EE356 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E54B5AEBFC5DF0599DFEC19D354062 /* MultipartFormData.swift */; };
+		CA807ECFB298220BF300FF681272BC5F /* RATreeView+TableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD39C0764AF85690BD589A04209B3B3 /* RATreeView+TableViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0E628850705E33FB624AED1CC5730FF /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C687D1BA5A1E98065EC3309D1E670FE2 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */; };
+		D2F888E1D108CFC963B25F012789305E /* Pods-Jahesh-Project-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E57F70F5379296AEE698551A360B85AB /* Pods-Jahesh-Project-dummy.m */; };
+		D37247DE9EEBCF8DB570001CA805B16D /* RATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 718FC3AAFA2C55FD91B1B80CD14DAD14 /* RATableView.m */; };
+		D47589E07F7A08988B4411C95AA1F1DB /* RATreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B00B0BFB128E1EACA9B43ED8AAF099A5 /* RATreeNode.m */; };
+		D9C851D9BEDD85ABDB1C56D064D52AC5 /* RATreeNodeCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AA915B9AF005E3F12182D2E717A96 /* RATreeNodeCollectionController.m */; };
+		DF1BBF94997A2F4248B42B25EA919EC2 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A921B810339E67FC13272E046C92F515 /* Result.swift */; };
+		E1F583CB4A68A928CD197250AA752926 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32744B9E5562B07E2CD96619C279CE45 /* TaskDelegate.swift */; };
+		E2A1C34237B4E928E5F85C097F4C2551 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5731A1A0EBE33715367A929FFE64C6B6 /* DispatchQueue+Alamofire.swift */; };
+		E59BF19C0AFA68B741552319FC478C7B /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1183C80BF5ACE468A9FDECA772901 /* NetworkReachabilityManager.swift */; };
+		E964086D148DB58587CCB2BCF4A49F9A /* RABatchChangeEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC507BC7E8C7DBA2C6BD050044077F2 /* RABatchChangeEntity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF376A322B8EAD00B80F0DFE0DD39F97 /* RABatchChangeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF31C402ADC00F7B7B640544624D7BD /* RABatchChangeEntity.m */; };
+		FFFDD494EE6D1B83DDAF5F2721F685A6 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBD3411778E6397D3195FB26E156F9B /* Validation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D5A0FE295C99479B14F16BD17D14D335 /* PBXContainerItemProxy */ = {
+		1F59A8285B01C0C2F956EA5CDE25D7FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C7AD6AB8116154A7C45A372C274741BF;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+		7867F102F3192DAD13E5F80AFFBC0D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A7E59E58B024AC1D808C101D75AE5D1;
+			remoteInfo = UIColorRGBA;
+		};
+		BF2759E1983442FF94ED3476F755BB07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81EDE0690F68A44997CF88CFA3CA4DFC;
 			remoteInfo = RATreeView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0482298E9DD5EFF8E57E81B2AB5A8822 /* RATreeView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+Private.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+Private.h"; sourceTree = "<group>"; };
-		08FCA79F7F6B422A557905FAEDC8E863 /* RABatchChangeEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RABatchChangeEntity.h; path = "RATreeView/RATreeView/Private Files/RABatchChangeEntity.h"; sourceTree = "<group>"; };
-		0FE37936632F6A768FEF1150D04579FE /* RATreeNodeCollectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeCollectionController.h; path = "RATreeView/RATreeView/Private Files/RATreeNodeCollectionController.h"; sourceTree = "<group>"; };
-		118424C4D4005A49C88C9468E569CFBC /* RATreeNodeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeItem.h; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem.h"; sourceTree = "<group>"; };
-		17D4E86A36B2B6B23B3E77ED00217F48 /* RATableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATableView.m; path = "RATreeView/RATreeView/Private Files/RATableView.m"; sourceTree = "<group>"; };
-		1E8667847F246FE9E31BF3CD3619A24D /* RATreeNodeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeController.m; path = "RATreeView/RATreeView/Private Files/RATreeNodeController.m"; sourceTree = "<group>"; };
-		2B73BD2BACCFAEC6A1FB81512C20F4FB /* RATreeNodeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeController.h; path = "RATreeView/RATreeView/Private Files/RATreeNodeController.h"; sourceTree = "<group>"; };
-		2CAF8B2C273310CADAE9F79899A7DC72 /* RATableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATableView.h; path = "RATreeView/RATreeView/Private Files/RATableView.h"; sourceTree = "<group>"; };
-		2FD5A7D3C88994E7DB2A1AD040B18FC6 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+RATreeNodeCollectionControllerDataSource.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+RATreeNodeCollectionControllerDataSource.m"; sourceTree = "<group>"; };
-		3D45B52E94788F55DEA4F72373C5C3EC /* RATreeView+Enums.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+Enums.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+Enums.m"; sourceTree = "<group>"; };
-		3F5E4F473712DE2CD2B40B2B63D16BAD /* RABatchChangeEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RABatchChangeEntity.m; path = "RATreeView/RATreeView/Private Files/RABatchChangeEntity.m"; sourceTree = "<group>"; };
-		3FC40EA7C3F7AD7877FEBC98B799413B /* Pods_Jahesh_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jahesh_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01287308C516D2FC69B51BAE5333E4AB /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		06C3B49EF9428C95BA1D485ECAD0D922 /* RATableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATableView.h; path = "RATreeView/RATreeView/Private Files/RATableView.h"; sourceTree = "<group>"; };
+		0F5EF540EEE94C3102955C1F74BA400D /* UIColorRGBA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UIColorRGBA.modulemap; sourceTree = "<group>"; };
+		1174B12CB363720D39C7EB0FD4B74370 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1456297F7C81353891F6DCEC7F62154B /* RATreeNodeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeController.h; path = "RATreeView/RATreeView/Private Files/RATreeNodeController.h"; sourceTree = "<group>"; };
+		1A945ECE00D9D740778C58DEC0A9539B /* RATreeNodeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeController.m; path = "RATreeView/RATreeView/Private Files/RATreeNodeController.m"; sourceTree = "<group>"; };
+		1BA9AE4264C39D1E4EE13361C47E5C36 /* RATreeView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+Private.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+Private.h"; sourceTree = "<group>"; };
+		1E7AA915B9AF005E3F12182D2E717A96 /* RATreeNodeCollectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeCollectionController.m; path = "RATreeView/RATreeView/Private Files/RATreeNodeCollectionController.m"; sourceTree = "<group>"; };
+		235A015DF410BBB9151DF2D2F23DAA59 /* RATreeNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNode.h; path = "RATreeView/RATreeView/Private Files/RATreeNode.h"; sourceTree = "<group>"; };
+		26D0728A389EC823274208A337EB4F7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6C95EAAA85997CD11242C7F3843BF5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		319DBB66C1EDCE2A8BF94AAA489B8DC2 /* RATreeNodeCollectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeCollectionController.h; path = "RATreeView/RATreeView/Private Files/RATreeNodeCollectionController.h"; sourceTree = "<group>"; };
+		32744B9E5562B07E2CD96619C279CE45 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		32F60DE02B2B39A315F94D7A7906C031 /* RATreeView+Enums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+Enums.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+Enums.h"; sourceTree = "<group>"; };
+		394BC488F98C6B1EB658E02EB47491AE /* UIColorRGBA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColorRGBA-dummy.m"; sourceTree = "<group>"; };
+		3DD39C0764AF85690BD589A04209B3B3 /* RATreeView+TableViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+TableViewDelegate.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDelegate.h"; sourceTree = "<group>"; };
 		4103E8D88E44E2DBDD66EABC91387556 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		421762E9B4CC29BA71F5295C0A3D1A19 /* RATreeNode_ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNode_ClassExtension.h; path = "RATreeView/RATreeView/Private Files/RATreeNode_ClassExtension.h"; sourceTree = "<group>"; };
-		4EF2F72DCC6D8293C0BF2C5555041659 /* RATreeNodeItem+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeNodeItem+Private.m"; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem+Private.m"; sourceTree = "<group>"; };
+		4CD6BEE8BEA20D2AD91F4552D722A722 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		50D191A511B329E96FE74F97CE233514 /* RATreeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RATreeView-dummy.m"; sourceTree = "<group>"; };
+		5366AB63F82D9958BACA1738A84B9C55 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		54DC729DAEAADBD3B578B646A019ACA4 /* UIColorRGBA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColorRGBA-umbrella.h"; sourceTree = "<group>"; };
 		5531FF39EB1EE5507F615C1BF241D42F /* Pods-Jahesh-Project-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Jahesh-Project-acknowledgements.plist"; sourceTree = "<group>"; };
-		558C2921CA6D13AC2E7A8ED99F769123 /* RATreeView+RATreeNodeCollectionControllerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+RATreeNodeCollectionControllerDataSource.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+RATreeNodeCollectionControllerDataSource.h"; sourceTree = "<group>"; };
-		616F31FA997C23C4E30AD23CBC30978C /* RATreeNodeItem+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeNodeItem+Private.h"; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem+Private.h"; sourceTree = "<group>"; };
-		6DFA8573DE35C3020D4E04A120362DA7 /* RATreeNodeItem+ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeNodeItem+ClassExtension.h"; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem+ClassExtension.h"; sourceTree = "<group>"; };
-		75F88A6BA3170DEB1A7C6DFBFC301BE5 /* RATreeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RATreeView.modulemap; sourceTree = "<group>"; };
+		5731A1A0EBE33715367A929FFE64C6B6 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		5BBD3411778E6397D3195FB26E156F9B /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		60E54B5AEBFC5DF0599DFEC19D354062 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		635AFD8208EDA14D735F9013B682C4FB /* RATreeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RATreeView-prefix.pch"; sourceTree = "<group>"; };
+		638C4F00EAA2C5B70C424A8BA6F10AA0 /* RATreeView+TableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+TableViewDataSource.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDataSource.h"; sourceTree = "<group>"; };
+		7074A8EDC1F94BF1D081BE1572E7A2B6 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		7177BFF11267986CBD1246E20AFE5C32 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		718FC3AAFA2C55FD91B1B80CD14DAD14 /* RATableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATableView.m; path = "RATreeView/RATreeView/Private Files/RATableView.m"; sourceTree = "<group>"; };
+		7D7F010DC42E5DD33035286B48D12274 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		7E0D101FD21CA52935BB6F51EFD556D6 /* Pods-Jahesh-Project-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Jahesh-Project-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7FBAF5E7E52F490DD7111E9849E16568 /* RATreeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RATreeView-prefix.pch"; sourceTree = "<group>"; };
-		800C92C72FBE378E66C4BA4B07C80033 /* RATreeNodeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeItem.m; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem.m"; sourceTree = "<group>"; };
+		810A9E12A809C07393370D2F014570EE /* RATreeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RATreeView-umbrella.h"; sourceTree = "<group>"; };
+		8282134A7278F85B2787020F30944784 /* RATreeNodeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeItem.m; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem.m"; sourceTree = "<group>"; };
+		828D672074E59AC7A0A86A37B1C4A7D1 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		82F26D8550F3FE7090A47C96498CF703 /* Pods-Jahesh-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jahesh-Project.release.xcconfig"; sourceTree = "<group>"; };
-		8556D5CA7E334E71B7C762393CC2B577 /* RATreeView+TableViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+TableViewDelegate.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDelegate.h"; sourceTree = "<group>"; };
-		872DC01DCF0CDA07F75CD9923E48BCC3 /* RATreeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RATreeView.xcconfig; sourceTree = "<group>"; };
+		85D113F9A9EFCC9E8A0D8902FED60A25 /* RATreeView+TableViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+TableViewDelegate.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDelegate.m"; sourceTree = "<group>"; };
 		8849DC726F93D15BFBACEF4B591719FA /* Pods-Jahesh-Project.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Jahesh-Project.modulemap"; sourceTree = "<group>"; };
-		8C88E019C81151901D455B61CC11A5A0 /* RABatchChanges.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RABatchChanges.h; path = "RATreeView/RATreeView/Private Files/RABatchChanges.h"; sourceTree = "<group>"; };
-		8F44073DEA5C5A8A367361C3CF85A918 /* RATreeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeView.h; path = RATreeView/RATreeView/RATreeView.h; sourceTree = "<group>"; };
-		8FB40A13D58E99E9235CF4A93A82DE37 /* RATreeView+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+Private.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+Private.m"; sourceTree = "<group>"; };
+		8B0C26FC7A14FF8056E1C1F7FFA0C98D /* RATreeNode_ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNode_ClassExtension.h; path = "RATreeView/RATreeView/Private Files/RATreeNode_ClassExtension.h"; sourceTree = "<group>"; };
+		8DC507BC7E8C7DBA2C6BD050044077F2 /* RABatchChangeEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RABatchChangeEntity.h; path = "RATreeView/RATreeView/Private Files/RABatchChangeEntity.h"; sourceTree = "<group>"; };
+		8DE9F8E2487BF59BCD26371D7BC7EF10 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		8E94D1067D02F9354A24BE903B4CABE4 /* RATreeNodeItem+ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeNodeItem+ClassExtension.h"; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem+ClassExtension.h"; sourceTree = "<group>"; };
+		91D1061AB7ACBDE13E0D24E69B1A9CA9 /* RATreeView+RATreeNodeCollectionControllerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+RATreeNodeCollectionControllerDataSource.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+RATreeNodeCollectionControllerDataSource.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9810CC5D3CA92284334380DED33EE7D4 /* RABatchChanges.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RABatchChanges.m; path = "RATreeView/RATreeView/Private Files/RABatchChanges.m"; sourceTree = "<group>"; };
-		9B55160C13C2996A4BF310969C4BF58E /* RATreeView+TableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+TableViewDataSource.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDataSource.m"; sourceTree = "<group>"; };
+		9DB4572B43DB2E29E5587C5503F0198B /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		9E800CBBB79C89BCDDE27B455207D422 /* Pods-Jahesh-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jahesh-Project.debug.xcconfig"; sourceTree = "<group>"; };
-		A086CA8DE8EB5176D947524ECD3B548B /* RATreeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeView.m; path = RATreeView/RATreeView/RATreeView.m; sourceTree = "<group>"; };
-		A6CA02CB0523CC89E3EC27F0598BA9E9 /* RATreeView+Enums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+Enums.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+Enums.h"; sourceTree = "<group>"; };
+		A237934370C80302F891790132A176CC /* RATreeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RATreeView.modulemap; sourceTree = "<group>"; };
 		A73493929F6B2384434A75E89724FD41 /* Pods-Jahesh-Project-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Jahesh-Project-umbrella.h"; sourceTree = "<group>"; };
-		B0A639237FFA55D216728974C948B16E /* RATreeNodeCollectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeCollectionController.m; path = "RATreeView/RATreeView/Private Files/RATreeNodeCollectionController.m"; sourceTree = "<group>"; };
-		B6751CCB17BC954E8A6EC412B5D35319 /* RATreeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RATreeView-umbrella.h"; sourceTree = "<group>"; };
-		B69F436C09157DF8EA0BDE38A1FA2637 /* RATreeView_ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeView_ClassExtension.h; path = "RATreeView/RATreeView/Private Files/RATreeView_ClassExtension.h"; sourceTree = "<group>"; };
-		C0BD18ED5CD1C28ED34707975046518F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4636964112EDCCC2DDA5ED2282E2782 /* RATreeNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNode.m; path = "RATreeView/RATreeView/Private Files/RATreeNode.m"; sourceTree = "<group>"; };
-		C73C886DD866C6580D445A33189B0E24 /* RATreeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RATreeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A921B810339E67FC13272E046C92F515 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		AC8D3922885D9D1544257782FE700189 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		B00B0BFB128E1EACA9B43ED8AAF099A5 /* RATreeNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNode.m; path = "RATreeView/RATreeView/Private Files/RATreeNode.m"; sourceTree = "<group>"; };
+		B3A6B3D062138627BC103880020BC763 /* RABatchChanges.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RABatchChanges.h; path = "RATreeView/RATreeView/Private Files/RABatchChanges.h"; sourceTree = "<group>"; };
+		B4F74601453624F3220F8DF129859832 /* RATreeNodeItem+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeNodeItem+Private.h"; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem+Private.h"; sourceTree = "<group>"; };
+		B50F230580F869E0E3996FD4EF3BBA3A /* UIColorRGBA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColorRGBA-prefix.pch"; sourceTree = "<group>"; };
+		BC3764B34D48C0F591462D69AF39C273 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4185F5B91AED5AB6F2BD2B88BA7E97 /* UIColorRGBA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorRGBA.swift; sourceTree = "<group>"; };
+		C091F2050669A6D0F8DCCFF8D0DA4F52 /* Pods_Jahesh_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jahesh_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C502113DE9750D51B71805A0DCEACE03 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		C687D1BA5A1E98065EC3309D1E670FE2 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+RATreeNodeCollectionControllerDataSource.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+RATreeNodeCollectionControllerDataSource.m"; sourceTree = "<group>"; };
+		CAB1183C80BF5ACE468A9FDECA772901 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		CAC2949A66B46378C9EDE12E8297EEEB /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		CD83CF97F36466C7A5D4180F37DB513E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFB3CC620DD6AAE0DC2A5C5943928FCF /* RATreeNodeItem+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeNodeItem+Private.m"; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem+Private.m"; sourceTree = "<group>"; };
+		D0029513E272E8488106BC23EB0AA999 /* RATreeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RATreeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7187EB2A7ADA85E1ACC4B9F8154E2 /* RATreeView+Enums.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+Enums.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+Enums.m"; sourceTree = "<group>"; };
 		D72EC3DC159029DE653AEAD1B46516DE /* Pods-Jahesh-Project-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jahesh-Project-frameworks.sh"; sourceTree = "<group>"; };
+		D79E240CFA75D3E6290EB669C7C60278 /* RATreeView+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+Private.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+Private.m"; sourceTree = "<group>"; };
+		D9F1C326DA65E85225757832EAC67961 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		DB68B8182555AE481C15A4A479028240 /* Pods-Jahesh-Project-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jahesh-Project-resources.sh"; sourceTree = "<group>"; };
-		E3226DCC461BFD490CB6A65E3AE3AFC3 /* RATreeView+TableViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+TableViewDelegate.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDelegate.m"; sourceTree = "<group>"; };
+		DBB57AFDE26ECB7868C31FA3425E64CF /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		E29F496F1E18556F943E0E6EA228D140 /* RATreeView_ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeView_ClassExtension.h; path = "RATreeView/RATreeView/Private Files/RATreeView_ClassExtension.h"; sourceTree = "<group>"; };
+		E37F867B181D9CAACE81DF71D00AC998 /* RATreeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeView.h; path = RATreeView/RATreeView/RATreeView.h; sourceTree = "<group>"; };
 		E57F70F5379296AEE698551A360B85AB /* Pods-Jahesh-Project-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Jahesh-Project-dummy.m"; sourceTree = "<group>"; };
-		EB341C3EEE192DDBAB3F968F20B33017 /* RATreeNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNode.h; path = "RATreeView/RATreeView/Private Files/RATreeNode.h"; sourceTree = "<group>"; };
-		F740ACC735B05ACBC74AD7CFFC624524 /* RATreeView+TableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+TableViewDataSource.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDataSource.h"; sourceTree = "<group>"; };
-		F94934031C1F7557B68A5C543F7D6A61 /* RATreeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RATreeView-dummy.m"; sourceTree = "<group>"; };
+		E83EC2E15AE607083230FC400F2DA90F /* RATreeNodeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeItem.h; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem.h"; sourceTree = "<group>"; };
+		E9CC26AEC54CB981371D32DE4EA04C8C /* RABatchChanges.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RABatchChanges.m; path = "RATreeView/RATreeView/Private Files/RABatchChanges.m"; sourceTree = "<group>"; };
+		ED78CDB9E73C68FF9FEDD09FF2DF5D78 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		F2B2052290E53DDA536D3414EB30EDEB /* RATreeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeView.m; path = RATreeView/RATreeView/RATreeView.m; sourceTree = "<group>"; };
+		F692541DBA833AB54BBDC64FD5904758 /* UIColorRGBA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColorRGBA.xcconfig; sourceTree = "<group>"; };
+		F84B9C27E1EAC312B123450804A8D8C9 /* RATreeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RATreeView.xcconfig; sourceTree = "<group>"; };
+		FABF0C9B96AFEB0E7DC15C2DFA897D65 /* RATreeView+TableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+TableViewDataSource.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDataSource.m"; sourceTree = "<group>"; };
+		FCF31C402ADC00F7B7B640544624D7BD /* RABatchChangeEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RABatchChangeEntity.m; path = "RATreeView/RATreeView/Private Files/RABatchChangeEntity.m"; sourceTree = "<group>"; };
+		FE7476B16D4BF690E1701A14CBD91D9E /* UIColorRGBA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColorRGBA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		56BD8925C2A1CFA42345B82F145E08FB /* Frameworks */ = {
+		1ADF5CC9CE490E60130F538CA7317176 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B931F5F2835B194175C4D3BA0F0C9976 /* Foundation.framework in Frameworks */,
+				A28A99F0229C8D83E6D78C7AD989CC41 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		600FA567A3BF9D7DC306ED129CD6CE1D /* Frameworks */ = {
+		838FB5E30D5C093FEF8DF38F6D667E60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABFAE1F09CD6EB7EA76136F793F83ABB /* Foundation.framework in Frameworks */,
+				1F152682CA62AF599262390F43C0A6F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868C3BEB3C1A5AE1BB13CCBDB1D2A233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE14177798242D179B68C4869981EF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,54 +224,88 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		47D5A9F201E2C084BF58E06304AA40C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1174B12CB363720D39C7EB0FD4B74370 /* Alamofire.framework */,
+				C091F2050669A6D0F8DCCFF8D0DA4F52 /* Pods_Jahesh_Project.framework */,
+				D0029513E272E8488106BC23EB0AA999 /* RATreeView.framework */,
+				FE7476B16D4BF690E1701A14CBD91D9E /* UIColorRGBA.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		533E8D5CE5C74880225DB57CC6DEF68D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26D0728A389EC823274208A337EB4F7D /* Info.plist */,
+				0F5EF540EEE94C3102955C1F74BA400D /* UIColorRGBA.modulemap */,
+				F692541DBA833AB54BBDC64FD5904758 /* UIColorRGBA.xcconfig */,
+				394BC488F98C6B1EB658E02EB47491AE /* UIColorRGBA-dummy.m */,
+				B50F230580F869E0E3996FD4EF3BBA3A /* UIColorRGBA-prefix.pch */,
+				54DC729DAEAADBD3B578B646A019ACA4 /* UIColorRGBA-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColorRGBA";
+			sourceTree = "<group>";
+		};
+		556B48BCC71C95595934A5FB4B334CB2 /* UIColorRGBA */ = {
+			isa = PBXGroup;
+			children = (
+				BC4185F5B91AED5AB6F2BD2B88BA7E97 /* UIColorRGBA.swift */,
+				533E8D5CE5C74880225DB57CC6DEF68D /* Support Files */,
+			);
+			path = UIColorRGBA;
+			sourceTree = "<group>";
+		};
+		6DEADE47D63273032426ABEB44BCE94B /* RATreeView */ = {
+			isa = PBXGroup;
+			children = (
+				8DC507BC7E8C7DBA2C6BD050044077F2 /* RABatchChangeEntity.h */,
+				FCF31C402ADC00F7B7B640544624D7BD /* RABatchChangeEntity.m */,
+				B3A6B3D062138627BC103880020BC763 /* RABatchChanges.h */,
+				E9CC26AEC54CB981371D32DE4EA04C8C /* RABatchChanges.m */,
+				06C3B49EF9428C95BA1D485ECAD0D922 /* RATableView.h */,
+				718FC3AAFA2C55FD91B1B80CD14DAD14 /* RATableView.m */,
+				235A015DF410BBB9151DF2D2F23DAA59 /* RATreeNode.h */,
+				B00B0BFB128E1EACA9B43ED8AAF099A5 /* RATreeNode.m */,
+				8B0C26FC7A14FF8056E1C1F7FFA0C98D /* RATreeNode_ClassExtension.h */,
+				319DBB66C1EDCE2A8BF94AAA489B8DC2 /* RATreeNodeCollectionController.h */,
+				1E7AA915B9AF005E3F12182D2E717A96 /* RATreeNodeCollectionController.m */,
+				1456297F7C81353891F6DCEC7F62154B /* RATreeNodeController.h */,
+				1A945ECE00D9D740778C58DEC0A9539B /* RATreeNodeController.m */,
+				E83EC2E15AE607083230FC400F2DA90F /* RATreeNodeItem.h */,
+				8282134A7278F85B2787020F30944784 /* RATreeNodeItem.m */,
+				8E94D1067D02F9354A24BE903B4CABE4 /* RATreeNodeItem+ClassExtension.h */,
+				B4F74601453624F3220F8DF129859832 /* RATreeNodeItem+Private.h */,
+				CFB3CC620DD6AAE0DC2A5C5943928FCF /* RATreeNodeItem+Private.m */,
+				E37F867B181D9CAACE81DF71D00AC998 /* RATreeView.h */,
+				F2B2052290E53DDA536D3414EB30EDEB /* RATreeView.m */,
+				32F60DE02B2B39A315F94D7A7906C031 /* RATreeView+Enums.h */,
+				D2F7187EB2A7ADA85E1ACC4B9F8154E2 /* RATreeView+Enums.m */,
+				1BA9AE4264C39D1E4EE13361C47E5C36 /* RATreeView+Private.h */,
+				D79E240CFA75D3E6290EB669C7C60278 /* RATreeView+Private.m */,
+				91D1061AB7ACBDE13E0D24E69B1A9CA9 /* RATreeView+RATreeNodeCollectionControllerDataSource.h */,
+				C687D1BA5A1E98065EC3309D1E670FE2 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */,
+				638C4F00EAA2C5B70C424A8BA6F10AA0 /* RATreeView+TableViewDataSource.h */,
+				FABF0C9B96AFEB0E7DC15C2DFA897D65 /* RATreeView+TableViewDataSource.m */,
+				3DD39C0764AF85690BD589A04209B3B3 /* RATreeView+TableViewDelegate.h */,
+				85D113F9A9EFCC9E8A0D8902FED60A25 /* RATreeView+TableViewDelegate.m */,
+				E29F496F1E18556F943E0E6EA228D140 /* RATreeView_ClassExtension.h */,
+				8BCF8F550E13A4E2F04175D44D0A5691 /* Support Files */,
+			);
+			path = RATreeView;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C18AE9D6D033F0A148E17CDCCCE665D9 /* Pods */,
-				C3EB6AC088BE1A1049BC0E881232D4FD /* Products */,
+				A8CBE3A800273BE7F7488F88859A7C75 /* Pods */,
+				47D5A9F201E2C084BF58E06304AA40C3 /* Products */,
 				8941B60509C97DD8CF4E0806CE8C6A62 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		85125C7AC6D390FC81674E7778B2807D /* RATreeView */ = {
-			isa = PBXGroup;
-			children = (
-				08FCA79F7F6B422A557905FAEDC8E863 /* RABatchChangeEntity.h */,
-				3F5E4F473712DE2CD2B40B2B63D16BAD /* RABatchChangeEntity.m */,
-				8C88E019C81151901D455B61CC11A5A0 /* RABatchChanges.h */,
-				9810CC5D3CA92284334380DED33EE7D4 /* RABatchChanges.m */,
-				2CAF8B2C273310CADAE9F79899A7DC72 /* RATableView.h */,
-				17D4E86A36B2B6B23B3E77ED00217F48 /* RATableView.m */,
-				EB341C3EEE192DDBAB3F968F20B33017 /* RATreeNode.h */,
-				C4636964112EDCCC2DDA5ED2282E2782 /* RATreeNode.m */,
-				421762E9B4CC29BA71F5295C0A3D1A19 /* RATreeNode_ClassExtension.h */,
-				0FE37936632F6A768FEF1150D04579FE /* RATreeNodeCollectionController.h */,
-				B0A639237FFA55D216728974C948B16E /* RATreeNodeCollectionController.m */,
-				2B73BD2BACCFAEC6A1FB81512C20F4FB /* RATreeNodeController.h */,
-				1E8667847F246FE9E31BF3CD3619A24D /* RATreeNodeController.m */,
-				118424C4D4005A49C88C9468E569CFBC /* RATreeNodeItem.h */,
-				800C92C72FBE378E66C4BA4B07C80033 /* RATreeNodeItem.m */,
-				6DFA8573DE35C3020D4E04A120362DA7 /* RATreeNodeItem+ClassExtension.h */,
-				616F31FA997C23C4E30AD23CBC30978C /* RATreeNodeItem+Private.h */,
-				4EF2F72DCC6D8293C0BF2C5555041659 /* RATreeNodeItem+Private.m */,
-				8F44073DEA5C5A8A367361C3CF85A918 /* RATreeView.h */,
-				A086CA8DE8EB5176D947524ECD3B548B /* RATreeView.m */,
-				A6CA02CB0523CC89E3EC27F0598BA9E9 /* RATreeView+Enums.h */,
-				3D45B52E94788F55DEA4F72373C5C3EC /* RATreeView+Enums.m */,
-				0482298E9DD5EFF8E57E81B2AB5A8822 /* RATreeView+Private.h */,
-				8FB40A13D58E99E9235CF4A93A82DE37 /* RATreeView+Private.m */,
-				558C2921CA6D13AC2E7A8ED99F769123 /* RATreeView+RATreeNodeCollectionControllerDataSource.h */,
-				2FD5A7D3C88994E7DB2A1AD040B18FC6 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */,
-				F740ACC735B05ACBC74AD7CFFC624524 /* RATreeView+TableViewDataSource.h */,
-				9B55160C13C2996A4BF310969C4BF58E /* RATreeView+TableViewDataSource.m */,
-				8556D5CA7E334E71B7C762393CC2B577 /* RATreeView+TableViewDelegate.h */,
-				E3226DCC461BFD490CB6A65E3AE3AFC3 /* RATreeView+TableViewDelegate.m */,
-				B69F436C09157DF8EA0BDE38A1FA2637 /* RATreeView_ClassExtension.h */,
-				8EEA68C07650FA6B39F6DC275E4DF6B8 /* Support Files */,
-			);
-			path = RATreeView;
 			sourceTree = "<group>";
 		};
 		8941B60509C97DD8CF4E0806CE8C6A62 /* Targets Support Files */ = {
@@ -214,18 +334,28 @@
 			path = "Target Support Files/Pods-Jahesh-Project";
 			sourceTree = "<group>";
 		};
-		8EEA68C07650FA6B39F6DC275E4DF6B8 /* Support Files */ = {
+		8BCF8F550E13A4E2F04175D44D0A5691 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0BD18ED5CD1C28ED34707975046518F /* Info.plist */,
-				75F88A6BA3170DEB1A7C6DFBFC301BE5 /* RATreeView.modulemap */,
-				872DC01DCF0CDA07F75CD9923E48BCC3 /* RATreeView.xcconfig */,
-				F94934031C1F7557B68A5C543F7D6A61 /* RATreeView-dummy.m */,
-				7FBAF5E7E52F490DD7111E9849E16568 /* RATreeView-prefix.pch */,
-				B6751CCB17BC954E8A6EC412B5D35319 /* RATreeView-umbrella.h */,
+				BC3764B34D48C0F591462D69AF39C273 /* Info.plist */,
+				A237934370C80302F891790132A176CC /* RATreeView.modulemap */,
+				F84B9C27E1EAC312B123450804A8D8C9 /* RATreeView.xcconfig */,
+				50D191A511B329E96FE74F97CE233514 /* RATreeView-dummy.m */,
+				635AFD8208EDA14D735F9013B682C4FB /* RATreeView-prefix.pch */,
+				810A9E12A809C07393370D2F014570EE /* RATreeView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RATreeView";
+			sourceTree = "<group>";
+		};
+		A8CBE3A800273BE7F7488F88859A7C75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC12B9B476CF02E71D97823896197ADC /* Alamofire */,
+				6DEADE47D63273032426ABEB44BCE94B /* RATreeView */,
+				556B48BCC71C95595934A5FB4B334CB2 /* UIColorRGBA */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -236,87 +366,161 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C18AE9D6D033F0A148E17CDCCCE665D9 /* Pods */ = {
+		EC12B9B476CF02E71D97823896197ADC /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				85125C7AC6D390FC81674E7778B2807D /* RATreeView */,
+				01287308C516D2FC69B51BAE5333E4AB /* AFError.swift */,
+				CAC2949A66B46378C9EDE12E8297EEEB /* Alamofire.swift */,
+				5731A1A0EBE33715367A929FFE64C6B6 /* DispatchQueue+Alamofire.swift */,
+				60E54B5AEBFC5DF0599DFEC19D354062 /* MultipartFormData.swift */,
+				CAB1183C80BF5ACE468A9FDECA772901 /* NetworkReachabilityManager.swift */,
+				AC8D3922885D9D1544257782FE700189 /* Notifications.swift */,
+				828D672074E59AC7A0A86A37B1C4A7D1 /* ParameterEncoding.swift */,
+				C502113DE9750D51B71805A0DCEACE03 /* Request.swift */,
+				4CD6BEE8BEA20D2AD91F4552D722A722 /* Response.swift */,
+				8DE9F8E2487BF59BCD26371D7BC7EF10 /* ResponseSerialization.swift */,
+				A921B810339E67FC13272E046C92F515 /* Result.swift */,
+				2D6C95EAAA85997CD11242C7F3843BF5 /* ServerTrustPolicy.swift */,
+				7D7F010DC42E5DD33035286B48D12274 /* SessionDelegate.swift */,
+				ED78CDB9E73C68FF9FEDD09FF2DF5D78 /* SessionManager.swift */,
+				32744B9E5562B07E2CD96619C279CE45 /* TaskDelegate.swift */,
+				9DB4572B43DB2E29E5587C5503F0198B /* Timeline.swift */,
+				5BBD3411778E6397D3195FB26E156F9B /* Validation.swift */,
+				F5CE33941D22BE37138FE55AA9126AB8 /* Support Files */,
 			);
-			name = Pods;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		C3EB6AC088BE1A1049BC0E881232D4FD /* Products */ = {
+		F5CE33941D22BE37138FE55AA9126AB8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3FC40EA7C3F7AD7877FEBC98B799413B /* Pods_Jahesh_Project.framework */,
-				C73C886DD866C6580D445A33189B0E24 /* RATreeView.framework */,
+				7177BFF11267986CBD1246E20AFE5C32 /* Alamofire.modulemap */,
+				7074A8EDC1F94BF1D081BE1572E7A2B6 /* Alamofire.xcconfig */,
+				D9F1C326DA65E85225757832EAC67961 /* Alamofire-dummy.m */,
+				DBB57AFDE26ECB7868C31FA3425E64CF /* Alamofire-prefix.pch */,
+				5366AB63F82D9958BACA1738A84B9C55 /* Alamofire-umbrella.h */,
+				CD83CF97F36466C7A5D4180F37DB513E /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		56EBB6EF08BA7796C1BB17F4C4C2E4F2 /* Headers */ = {
+		598961E5C0D26EEEEAF2A78E8D6C157C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58829CF38B5969EBC6A8E97F291E0B31 /* Pods-Jahesh-Project-umbrella.h in Headers */,
+				BFA742963299A7AF2EC952D57BEFDCAA /* UIColorRGBA-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF649A954CB608E2D892E8F8CF58E7B7 /* Headers */ = {
+		AF314BEE7C5DC3574A4B5DE522865286 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D03D7283E5F0D5B83349120ECD5BC8A5 /* RABatchChangeEntity.h in Headers */,
-				9D04E3746B1BB728959AE9A0FAD7360F /* RABatchChanges.h in Headers */,
-				C470A8434F924667798A0E288DECF948 /* RATableView.h in Headers */,
-				8A43B3E41E7C733A75AECCCAA632F6D6 /* RATreeNode.h in Headers */,
-				19F28DD961889C1A8594FF9973DD9190 /* RATreeNode_ClassExtension.h in Headers */,
-				89DECD82A8DEDC9D8526F86479FF3F11 /* RATreeNodeCollectionController.h in Headers */,
-				7A9D1608A197686D2E8314A5F126E617 /* RATreeNodeController.h in Headers */,
-				B095F8F456BBC6D8831CBD76442FB1CF /* RATreeNodeItem+ClassExtension.h in Headers */,
-				C2E1387655E3D96F7BF93605DE3593AF /* RATreeNodeItem+Private.h in Headers */,
-				5D64740D630619E45532BDE89C388015 /* RATreeNodeItem.h in Headers */,
-				9B8948C2957425FDF0D57EADD4817BCB /* RATreeView+Enums.h in Headers */,
-				6C7B926107B6A7FF2E35A538D0C5B06A /* RATreeView+Private.h in Headers */,
-				F56E0D185CB40E7B9241B9E2AA2610EC /* RATreeView+RATreeNodeCollectionControllerDataSource.h in Headers */,
-				6640868A385CABA3474396A3173E21BD /* RATreeView+TableViewDataSource.h in Headers */,
-				0A5034FED5C500E1CDC91D1BAB24E361 /* RATreeView+TableViewDelegate.h in Headers */,
-				477179F52A692AE561374B8BDCB98AA4 /* RATreeView-umbrella.h in Headers */,
-				889FB68DF85EDBDE6F032A5D585AA728 /* RATreeView.h in Headers */,
-				B6CB533C93CE281F08AD79B226AFFF5B /* RATreeView_ClassExtension.h in Headers */,
+				B214E2CF183F29E3D78E3EF532B54DA4 /* Pods-Jahesh-Project-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9355660D7ABADCF0C1A351A5529AFFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E964086D148DB58587CCB2BCF4A49F9A /* RABatchChangeEntity.h in Headers */,
+				B5489B4E6D67D7A1D599E8BB8179EB38 /* RABatchChanges.h in Headers */,
+				9FC2991D308E4556861CE50BF200912B /* RATableView.h in Headers */,
+				9289BC655DDF436A61E440FCE4F7D563 /* RATreeNode.h in Headers */,
+				B7A5466FD71D1BE080DDA871C8C1D33E /* RATreeNode_ClassExtension.h in Headers */,
+				3042E82F40C9453C803C9EE5029912D4 /* RATreeNodeCollectionController.h in Headers */,
+				993FD46DA3CD10C83983FC657BCBAB9E /* RATreeNodeController.h in Headers */,
+				210D358CA42BD549510FD94B39B32F9C /* RATreeNodeItem+ClassExtension.h in Headers */,
+				8A529E2BC9B8CC5F5437BFB55BE8DD13 /* RATreeNodeItem+Private.h in Headers */,
+				64EA0C41501516ABF9FF3A769C3BB1C8 /* RATreeNodeItem.h in Headers */,
+				073F55F5D0B460E13198F9D4B238453E /* RATreeView+Enums.h in Headers */,
+				A23105AA5C2F2D50C44F7671133D3DEA /* RATreeView+Private.h in Headers */,
+				9CD3BC84536C9CBF90A0403CFEBC4796 /* RATreeView+RATreeNodeCollectionControllerDataSource.h in Headers */,
+				96FD9D65547FCA61BFC226CDB70AE53B /* RATreeView+TableViewDataSource.h in Headers */,
+				CA807ECFB298220BF300FF681272BC5F /* RATreeView+TableViewDelegate.h in Headers */,
+				BE72C119EAA3C620D1E6C16010E7DE57 /* RATreeView-umbrella.h in Headers */,
+				83FEA980268737943B98AD1F6A4D0C21 /* RATreeView.h in Headers */,
+				7B0F9ADA3E11B02C927A30A3A9D5AADB /* RATreeView_ClassExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF3B631BBB965A372347705CA14854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3B6FD4F1A8F25D8FC4DFCB3BD06F5B3F /* Pods-Jahesh-Project */ = {
+		692C0F2D2A51AB62618B8E0E0528F968 /* Pods-Jahesh-Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 789962C63C5B534EA64014FFB5CD66A3 /* Build configuration list for PBXNativeTarget "Pods-Jahesh-Project" */;
+			buildConfigurationList = C5E440A23B9444A914A6327324EC1776 /* Build configuration list for PBXNativeTarget "Pods-Jahesh-Project" */;
 			buildPhases = (
-				1285C3EF1987E0BE59C148F7331AA829 /* Sources */,
-				56BD8925C2A1CFA42345B82F145E08FB /* Frameworks */,
-				56EBB6EF08BA7796C1BB17F4C4C2E4F2 /* Headers */,
+				902799C8EDBA023DEF9A2702B5162570 /* Sources */,
+				838FB5E30D5C093FEF8DF38F6D667E60 /* Frameworks */,
+				AF314BEE7C5DC3574A4B5DE522865286 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7CB5C07239428D9F53E0EB1CF443CD7B /* PBXTargetDependency */,
+				C63895B395A416D458D12AF0ED2829E2 /* PBXTargetDependency */,
+				32332AF1D5053B9629CC4564314951C2 /* PBXTargetDependency */,
+				C1CDB79D057E05A322615CF74FC0E0C0 /* PBXTargetDependency */,
 			);
 			name = "Pods-Jahesh-Project";
 			productName = "Pods-Jahesh-Project";
-			productReference = 3FC40EA7C3F7AD7877FEBC98B799413B /* Pods_Jahesh_Project.framework */;
+			productReference = C091F2050669A6D0F8DCCFF8D0DA4F52 /* Pods_Jahesh_Project.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C7AD6AB8116154A7C45A372C274741BF /* RATreeView */ = {
+		6A7E59E58B024AC1D808C101D75AE5D1 /* UIColorRGBA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60A1401637AC6F7A6D327F71CF0BAB95 /* Build configuration list for PBXNativeTarget "RATreeView" */;
+			buildConfigurationList = 757C57593DB572980421C7856F17959C /* Build configuration list for PBXNativeTarget "UIColorRGBA" */;
 			buildPhases = (
-				94991CAD4D60E8D48928A69179D90D5E /* Sources */,
-				600FA567A3BF9D7DC306ED129CD6CE1D /* Frameworks */,
-				CF649A954CB608E2D892E8F8CF58E7B7 /* Headers */,
+				0A49FA6F4E264EA5C7BC09D03F7A854B /* Sources */,
+				1ADF5CC9CE490E60130F538CA7317176 /* Frameworks */,
+				598961E5C0D26EEEEAF2A78E8D6C157C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIColorRGBA;
+			productName = UIColorRGBA;
+			productReference = FE7476B16D4BF690E1701A14CBD91D9E /* UIColorRGBA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				120C4E824DDCCA024C170A491FF221A5 /* Sources */,
+				B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */,
+				EFDF3B631BBB965A372347705CA14854 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 1174B12CB363720D39C7EB0FD4B74370 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81EDE0690F68A44997CF88CFA3CA4DFC /* RATreeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D62A7A88DAD0377790471CB087C73FE /* Build configuration list for PBXNativeTarget "RATreeView" */;
+			buildPhases = (
+				464A0934AD4BB10ACBC6E9B617BD4DAD /* Sources */,
+				868C3BEB3C1A5AE1BB13CCBDB1D2A233 /* Frameworks */,
+				E9355660D7ABADCF0C1A351A5529AFFE /* Headers */,
 			);
 			buildRules = (
 			);
@@ -324,7 +528,7 @@
 			);
 			name = RATreeView;
 			productName = RATreeView;
-			productReference = C73C886DD866C6580D445A33189B0E24 /* RATreeView.framework */;
+			productReference = D0029513E272E8488106BC23EB0AA999 /* RATreeView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -344,91 +548,165 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C3EB6AC088BE1A1049BC0E881232D4FD /* Products */;
+			productRefGroup = 47D5A9F201E2C084BF58E06304AA40C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B6FD4F1A8F25D8FC4DFCB3BD06F5B3F /* Pods-Jahesh-Project */,
-				C7AD6AB8116154A7C45A372C274741BF /* RATreeView */,
+				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
+				692C0F2D2A51AB62618B8E0E0528F968 /* Pods-Jahesh-Project */,
+				81EDE0690F68A44997CF88CFA3CA4DFC /* RATreeView */,
+				6A7E59E58B024AC1D808C101D75AE5D1 /* UIColorRGBA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1285C3EF1987E0BE59C148F7331AA829 /* Sources */ = {
+		0A49FA6F4E264EA5C7BC09D03F7A854B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A0311769620443FABF841840F312C9 /* Pods-Jahesh-Project-dummy.m in Sources */,
+				7BDD753F2380DB0D746348D3F1BE1DD9 /* UIColorRGBA-dummy.m in Sources */,
+				0BEB46DD50755AE48C12ACEE419B788D /* UIColorRGBA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94991CAD4D60E8D48928A69179D90D5E /* Sources */ = {
+		120C4E824DDCCA024C170A491FF221A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4E818D52043A3DE5D2D292B2D84F74 /* RABatchChangeEntity.m in Sources */,
-				1DA0C1428D1F95644522A1C2F57342DA /* RABatchChanges.m in Sources */,
-				2C1D101FA5482B8EF8BDA14874CA32C3 /* RATableView.m in Sources */,
-				060E4A28972DBEC1606DE76BCF583723 /* RATreeNode.m in Sources */,
-				2AE0B3E3512C6649033309B1C4A0EBEE /* RATreeNodeCollectionController.m in Sources */,
-				419A8478DAC226F7A1D8D812B763E777 /* RATreeNodeController.m in Sources */,
-				7882F17F49899224DF673F1B5CCBEC0F /* RATreeNodeItem+Private.m in Sources */,
-				DDD99DF275B5E7018E16B6B224E954BA /* RATreeNodeItem.m in Sources */,
-				B92EAA5C87A5A1E9EA5EDEFBD4A2BBBC /* RATreeView+Enums.m in Sources */,
-				18265794932F33FEFFEFFC29B21A63B4 /* RATreeView+Private.m in Sources */,
-				D9F7280CE5B4D43F8768AD28FBD7A075 /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */,
-				D7D04FAF0102CC7A628B73AB60A1B5DB /* RATreeView+TableViewDataSource.m in Sources */,
-				030E4F1362CE05DD2D6AFDDEA14277FD /* RATreeView+TableViewDelegate.m in Sources */,
-				1429AE35503A132CD7AB172C7D4CE8BD /* RATreeView-dummy.m in Sources */,
-				EB0077BA96FDEC3934D962AF8307752D /* RATreeView.m in Sources */,
+				62143065F94E53F437DCE5D7A998D66D /* AFError.swift in Sources */,
+				8D463A0A4C65C02FDD5211F0F3C6F8B8 /* Alamofire-dummy.m in Sources */,
+				7CA5A9BA5246FDA8227233E310029392 /* Alamofire.swift in Sources */,
+				E2A1C34237B4E928E5F85C097F4C2551 /* DispatchQueue+Alamofire.swift in Sources */,
+				C7A3408350643ADE1018826C766EE356 /* MultipartFormData.swift in Sources */,
+				E59BF19C0AFA68B741552319FC478C7B /* NetworkReachabilityManager.swift in Sources */,
+				0C1B4E9FFB8B81E8833A3BAD537B1990 /* Notifications.swift in Sources */,
+				AF158CAAF4DD319009AFC855DC995D90 /* ParameterEncoding.swift in Sources */,
+				12118C354EFA36292F82A8D0CFCE45B2 /* Request.swift in Sources */,
+				86ED08F33B7D357932A9AB743E9D9EA7 /* Response.swift in Sources */,
+				B8154C96802336E5DDA5CEE97C3180A0 /* ResponseSerialization.swift in Sources */,
+				DF1BBF94997A2F4248B42B25EA919EC2 /* Result.swift in Sources */,
+				C0AEA97E7684DDAD56998C0AE198A433 /* ServerTrustPolicy.swift in Sources */,
+				907AB123FBC8BC9340D5B7350CE828DF /* SessionDelegate.swift in Sources */,
+				A79AC30123B0C2177D67F6ED6A1B3215 /* SessionManager.swift in Sources */,
+				E1F583CB4A68A928CD197250AA752926 /* TaskDelegate.swift in Sources */,
+				3982B850C43B41BA6D25F440F0412E9B /* Timeline.swift in Sources */,
+				FFFDD494EE6D1B83DDAF5F2721F685A6 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464A0934AD4BB10ACBC6E9B617BD4DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF376A322B8EAD00B80F0DFE0DD39F97 /* RABatchChangeEntity.m in Sources */,
+				4589169FE5DB001B04105A3C0BBAEC2E /* RABatchChanges.m in Sources */,
+				D37247DE9EEBCF8DB570001CA805B16D /* RATableView.m in Sources */,
+				D47589E07F7A08988B4411C95AA1F1DB /* RATreeNode.m in Sources */,
+				D9C851D9BEDD85ABDB1C56D064D52AC5 /* RATreeNodeCollectionController.m in Sources */,
+				2309B1913E8A54B78536A2960EF8BAE9 /* RATreeNodeController.m in Sources */,
+				834AA1800734F3370026718D5F3D23ED /* RATreeNodeItem+Private.m in Sources */,
+				4600B8EA1F2616B8F4EE43F90664CEA8 /* RATreeNodeItem.m in Sources */,
+				755B8D640F28403CCCAEBAA8609564AD /* RATreeView+Enums.m in Sources */,
+				B6223284DC9C4E48FC5FBC7AAF238217 /* RATreeView+Private.m in Sources */,
+				D0E628850705E33FB624AED1CC5730FF /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */,
+				6909A75CC86F56E70A131E30F62E4D7E /* RATreeView+TableViewDataSource.m in Sources */,
+				66A5FEBDC5353AFCAB2B369E65DA0685 /* RATreeView+TableViewDelegate.m in Sources */,
+				16A5667304757EB7A093AB2EF724CF3B /* RATreeView-dummy.m in Sources */,
+				6B1558862672FE8E1A12B2B6F0DA8A21 /* RATreeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902799C8EDBA023DEF9A2702B5162570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F888E1D108CFC963B25F012789305E /* Pods-Jahesh-Project-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7CB5C07239428D9F53E0EB1CF443CD7B /* PBXTargetDependency */ = {
+		32332AF1D5053B9629CC4564314951C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RATreeView;
-			target = C7AD6AB8116154A7C45A372C274741BF /* RATreeView */;
-			targetProxy = D5A0FE295C99479B14F16BD17D14D335 /* PBXContainerItemProxy */;
+			target = 81EDE0690F68A44997CF88CFA3CA4DFC /* RATreeView */;
+			targetProxy = BF2759E1983442FF94ED3476F755BB07 /* PBXContainerItemProxy */;
+		};
+		C1CDB79D057E05A322615CF74FC0E0C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColorRGBA;
+			target = 6A7E59E58B024AC1D808C101D75AE5D1 /* UIColorRGBA */;
+			targetProxy = 7867F102F3192DAD13E5F80AFFBC0D11 /* PBXContainerItemProxy */;
+		};
+		C63895B395A416D458D12AF0ED2829E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = 1F59A8285B01C0C2F956EA5CDE25D7FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2162644259CC1D1593BF2F60DDDB6BED /* Debug */ = {
+		05AE4334551A0A028FDBE2215E563D8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E800CBBB79C89BCDDE27B455207D422 /* Pods-Jahesh-Project.debug.xcconfig */;
+			baseConfigurationReference = F84B9C27E1EAC312B123450804A8D8C9 /* RATreeView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Jahesh-Project/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RATreeView/RATreeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RATreeView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Jahesh-Project/Pods-Jahesh-Project.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Jahesh_Project;
+				MODULEMAP_FILE = "Target Support Files/RATreeView/RATreeView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RATreeView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		16799B0D4D40C491A7DCC97851CD2F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F692541DBA833AB54BBDC64FD5904758 /* UIColorRGBA.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColorRGBA/UIColorRGBA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColorRGBA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColorRGBA/UIColorRGBA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIColorRGBA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -468,13 +746,13 @@
 			};
 			name = Release;
 		};
-		4712A7AC6953C996E4BB7C54E62D59D8 /* Release */ = {
+		4922BDF021030CBFB8D807315E559C70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82F26D8550F3FE7090A47C96498CF703 /* Pods-Jahesh-Project.release.xcconfig */;
+			baseConfigurationReference = 9E800CBBB79C89BCDDE27B455207D422 /* Pods-Jahesh-Project.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -487,7 +765,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Jahesh-Project/Pods-Jahesh-Project.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -495,11 +773,41 @@
 				PRODUCT_NAME = Pods_Jahesh_Project;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		5B5AB4B9F5AA9B4D5D86336030B35AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84B9C27E1EAC312B123450804A8D8C9 /* RATreeView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RATreeView/RATreeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RATreeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RATreeView/RATreeView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RATreeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -543,9 +851,9 @@
 			};
 			name = Debug;
 		};
-		9EB9C1CFF1E4BF36561D10F47F15F473 /* Release */ = {
+		BBEE4C38AAACF4DD29E3EBF73E65A0AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 872DC01DCF0CDA07F75CD9923E48BCC3 /* RATreeView.xcconfig */;
+			baseConfigurationReference = 82F26D8550F3FE7090A47C96498CF703 /* Pods-Jahesh-Project.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -556,14 +864,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RATreeView/RATreeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RATreeView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Jahesh-Project/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RATreeView/RATreeView.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jahesh-Project/Pods-Jahesh-Project.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RATreeView;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Jahesh_Project;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -572,9 +884,9 @@
 			};
 			name = Release;
 		};
-		B1206FDD80E53804B2CC8714642E2128 /* Debug */ = {
+		C374C25A9F558F6EEBE5AA5AFE87C1FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 872DC01DCF0CDA07F75CD9923E48BCC3 /* RATreeView.xcconfig */;
+			baseConfigurationReference = 7074A8EDC1F94BF1D081BE1572E7A2B6 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -585,21 +897,84 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RATreeView/RATreeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RATreeView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RATreeView/RATreeView.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RATreeView;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		DBD4C24814AE8B68A5F7C9156E2F5843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F692541DBA833AB54BBDC64FD5904758 /* UIColorRGBA.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColorRGBA/UIColorRGBA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColorRGBA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColorRGBA/UIColorRGBA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIColorRGBA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBE183CBAFBA48A350980B9E1DD47B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7074A8EDC1F94BF1D081BE1572E7A2B6 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -613,20 +988,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60A1401637AC6F7A6D327F71CF0BAB95 /* Build configuration list for PBXNativeTarget "RATreeView" */ = {
+		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1206FDD80E53804B2CC8714642E2128 /* Debug */,
-				9EB9C1CFF1E4BF36561D10F47F15F473 /* Release */,
+				C374C25A9F558F6EEBE5AA5AFE87C1FB /* Debug */,
+				DBE183CBAFBA48A350980B9E1DD47B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		789962C63C5B534EA64014FFB5CD66A3 /* Build configuration list for PBXNativeTarget "Pods-Jahesh-Project" */ = {
+		757C57593DB572980421C7856F17959C /* Build configuration list for PBXNativeTarget "UIColorRGBA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2162644259CC1D1593BF2F60DDDB6BED /* Debug */,
-				4712A7AC6953C996E4BB7C54E62D59D8 /* Release */,
+				DBD4C24814AE8B68A5F7C9156E2F5843 /* Debug */,
+				16799B0D4D40C491A7DCC97851CD2F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D62A7A88DAD0377790471CB087C73FE /* Build configuration list for PBXNativeTarget "RATreeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5AB4B9F5AA9B4D5D86336030B35AF4 /* Debug */,
+				05AE4334551A0A028FDBE2215E563D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5E440A23B9444A914A6327324EC1776 /* Build configuration list for PBXNativeTarget "Pods-Jahesh-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4922BDF021030CBFB8D807315E559C70 /* Debug */,
+				BBEE4C38AAACF4DD29E3EBF73E65A0AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -84,8 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/RATreeView/RATreeView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIColorRGBA/UIColorRGBA.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/RATreeView/RATreeView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIColorRGBA/UIColorRGBA.framework"
 fi

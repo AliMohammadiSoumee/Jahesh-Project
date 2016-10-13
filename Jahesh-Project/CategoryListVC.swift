@@ -21,42 +21,20 @@ class CategoryListVC: UIViewController, RATreeViewDelegate, RATreeViewDataSource
         super.viewDidLoad()
         categoryList.delegate = self
         categoryList.dataSource = self
-        buildRATableView()
-        list = load_list()
-    }
+        constrainRATableView()
+        loadData(completionHandler: { (theList) in
+            self.list = theList
+            self.list[0] = DataObject(name: "روشنایی", children: [DataObject(name: "لامپ") , DataObject(name: "پریز"), DataObject(name: "سیم", children: [DataObject(name: "سیم ۲"), DataObject(name: "سیم ۱")])])
+            DispatchQueue.main.async {
+                self.categoryList.reloadData()
+            }
+            
+        })
 
-    func load_list() -> [DataObject]{
-    
-    let phone1 = DataObject(name: "Phone 1")
-    let phone2 = DataObject(name: "Phone 2")
-    let phone3 = DataObject(name: "Phone 3")
-    let phone4 = DataObject(name: "Phone 4")
-    let phones = DataObject(name: "Phones", children: [phone1, phone2, phone3, phone4])
-    
-    let notebook1 = DataObject(name: "Notebook 1")
-    let notebook2 = DataObject(name: "Notebook 2")
-    
-    let computer1 = DataObject(name: "Computer 1", children: [notebook1, notebook2])
-    let computer2 = DataObject(name: "Computer 2")
-    let computer3 = DataObject(name: "Computer 3")
-    let computers = DataObject(name: "Computers", children: [computer1, computer2, computer3])
-    
-    let cars = DataObject(name: "Cars")
-    let bikes = DataObject(name: "Bikes")
-    let houses = DataObject(name: "Houses")
-    let flats = DataObject(name: "Flats")
-    let motorbikes = DataObject(name: "motorbikes")
-    let drinks = DataObject(name: "Drinks")
-    let food = DataObject(name: "Food")
-    let sweets = DataObject(name: "Sweets")
-    let watches = DataObject(name: "Watches")
-    let walls = DataObject(name: "Walls")
-    
-    return [phones, computers, cars, bikes, houses, flats, motorbikes, drinks, food, sweets, watches, walls]
     }
     
     
-    func buildRATableView(){
+    func constrainRATableView(){
         
         mainContentView.addSubview(categoryList)
         categoryList.translatesAutoresizingMaskIntoConstraints = false
@@ -93,26 +71,40 @@ class CategoryListVC: UIViewController, RATreeViewDelegate, RATreeViewDataSource
         mainContentView.addConstraints([topConstraint, leftConstraint, rightConstraint, bottomConstraint])
     }
 
-//    func reloadData(){
-//        let string_url = "http://185.8.173.210/api/category"
-//        let url = URL(string: string_url)!
-//        let session = URLSession.shared
-//        let task = session.dataTask(with: url) { (data, response, error) in
-//            if let data = data{
-//                do {
-//                    let json = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments) as! Dictionary<String, AnyObject>
-//                    print(json)
-//                }
-//                catch{
-//                    print("json-error")
-//                }
-//            }else {
-//                print(error.debugDescription)
-//            }
-//        }
-//        task.resume()
-//        
-//    }
+    func loadData(completionHandler:@escaping ([DataObject])->()) -> ()  {
+        var list = [DataObject]()
+        let string_url = "http://185.8.173.210/api/category/"
+        let url = URL(string: string_url)!
+        
+        let config = URLSessionConfiguration.default
+        config.httpAdditionalHeaders = ["Authorization": "Token d0a13a1adeb4507f122706a7ba66bad4e5613821"]
+        
+        let session = URLSession(configuration: config)
+        let task = session.dataTask(with: url) { (data, response, error) in
+            if let data = data{
+                do {
+                    let json = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments) as! Dictionary<String, AnyObject>
+                    
+                    if let count = json["count"] {
+                        for i in 0...((count as! Int) - 1) {
+                            let name = ((json["results"]![i] as! [String:Any]) ["name"] as! String)
+                            let newCell = DataObject(name: name)
+                            list.append(newCell)
+                        }
+                    }
+                    //(json?["results"]![0] as! [String:Any]) ["name"] as! String
+                    
+                    completionHandler(list)
+                }
+                catch{
+                    print("json-error")
+                }
+            }else {
+                print(error.debugDescription)
+            }
+        }
+        task.resume()
+    }
     
     
     
@@ -141,11 +133,25 @@ class CategoryListVC: UIViewController, RATreeViewDelegate, RATreeViewDataSource
     func treeView(_ treeView: RATreeView, cellForItem item: Any?) -> UITableViewCell {
         
         let cell = TreeTableViewCell()
+        cell.selectionStyle = .none
         let item = item as! DataObject
         let level = treeView.levelForCell(forItem: item)
-        let detailsText = "Number of children \(item.children.count)"
-        cell.setup(withTitle: item.name, detailsText: detailsText, level: level)
-
+        cell.setup(withTitle: item.name, level: level)
+        
         return cell
+    }
+    
+    
+    func treeView(_ treeView: RATreeView, didSelectRowForItem item: Any) {
+        let cell = categoryList.cell(forItem: item) as! TreeTableViewCell
+        if cell.cellExpand {
+            cell.cellExpand = false
+            cell.expandImage.transform = CGAffineTransform.identity
+        }else {
+            cell.cellExpand = true
+            cell.expandImage.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI))
+        }
+        
+        
     }
 }

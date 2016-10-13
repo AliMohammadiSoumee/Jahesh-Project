@@ -147,17 +147,16 @@ class MainViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     
         
     @IBAction func listOfNewProducts(_ sender: AnyObject) {
-        print("new")
+
     }
     
     @IBAction func listOfTopSellerProducts(_ sender: AnyObject) {
-        print("top")
+        
     }
     
     
     @IBAction func mainPageButtonAction(_ sender: AnyObject) {
         performSegue(withIdentifier: "ShowCategoryList", sender: nil)
-        print("yes")
     }
     
     

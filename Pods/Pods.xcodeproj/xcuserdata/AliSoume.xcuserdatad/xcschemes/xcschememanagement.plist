@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Jahesh-Project.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -14,15 +19,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UIColorRGBA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3B6FD4F1A8F25D8FC4DFCB3BD06F5B3F</key>
+		<key>692C0F2D2A51AB62618B8E0E0528F968</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C7AD6AB8116154A7C45A372C274741BF</key>
+		<key>6A7E59E58B024AC1D808C101D75AE5D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81EDE0690F68A44997CF88CFA3CA4DFC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -11,7 +11,7 @@ import Foundation
 
 class DataObject
 {
-    let name : String
+    var name : String
     private(set) var children : [DataObject]
 
     init(name : String, children: [DataObject]) {
