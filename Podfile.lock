@@ -1,18 +1,25 @@
 PODS:
   - Alamofire (4.0.1)
+  - AlamofireObjectMapper (4.0.0):
+    - Alamofire (~> 4.0)
+    - ObjectMapper (~> 2.0)
+  - ObjectMapper (2.0.0)
   - RATreeView (2.1.1)
   - UIColorRGBA (0.3)
 
 DEPENDENCIES:
   - Alamofire
+  - AlamofireObjectMapper (~> 4.0)
   - RATreeView (~> 2.1.1)
   - UIColorRGBA
 
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AlamofireObjectMapper: 9faa3ce5a240efda1b209009a2d6e1e949227abc
+  ObjectMapper: aed2570edabbd3c9b26c939e1cabdb6558f933e0
   RATreeView: f40c8fdc7c99eb0aecced77ad20b0c52f4e9a9c4
   UIColorRGBA: bd85443550ca77a686fd469f2708bebcf122b22c
 
-PODFILE CHECKSUM: 63e8d6ad03b36cb454863afcbfb8efb9fb9cc899
+PODFILE CHECKSUM: 8f7abc10cfe3c4bd7bab9efb2b1371e4e6f386e2
 
 COCOAPODS: 1.0.1

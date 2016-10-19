@@ -8,6 +8,10 @@
 
 import UIKit
 import RATreeView
+import Alamofire
+import AlamofireObjectMapper
+import ObjectMapper
+
 
 class CategoryListVC: UIViewController, RATreeViewDelegate, RATreeViewDataSource {
     
@@ -22,15 +26,13 @@ class CategoryListVC: UIViewController, RATreeViewDelegate, RATreeViewDataSource
         categoryList.delegate = self
         categoryList.dataSource = self
         constrainRATableView()
-        loadData(completionHandler: { (theList) in
+        
+        loadMainList(completionHandler: { (theList) in
             self.list = theList
-            self.list[0] = DataObject(name: "روشنایی", children: [DataObject(name: "لامپ") , DataObject(name: "پریز"), DataObject(name: "سیم", children: [DataObject(name: "سیم ۲"), DataObject(name: "سیم ۱")])])
             DispatchQueue.main.async {
                 self.categoryList.reloadData()
             }
-            
         })
-
     }
     
     
@@ -66,51 +68,93 @@ class CategoryListVC: UIViewController, RATreeViewDelegate, RATreeViewDataSource
             , toItem: mainContentView
             , attribute: .bottom
             , multiplier: 1
-            , constant: 10)
+            , constant: -50)
         
         mainContentView.addConstraints([topConstraint, leftConstraint, rightConstraint, bottomConstraint])
     }
 
-    func loadData(completionHandler:@escaping ([DataObject])->()) -> ()  {
-        var list = [DataObject]()
-        let string_url = "http://185.8.173.210/api/category/"
-        let url = URL(string: string_url)!
+    
+    func loadMainList(completionHandler:@escaping ([DataObject])->()) -> ()  {
+        let path = "http://185.8.173.210/api/"
+        let qpath = path + "category/"
+        let authorization = "token d0a13a1adeb4507f122706a7ba66bad4e5613821"
+        let headers = ["Authorization": authorization, "Accept": "application/json"]
         
-        let config = URLSessionConfiguration.default
-        config.httpAdditionalHeaders = ["Authorization": "Token d0a13a1adeb4507f122706a7ba66bad4e5613821"]
-        
-        let session = URLSession(configuration: config)
-        let task = session.dataTask(with: url) { (data, response, error) in
-            if let data = data{
-                do {
-                    let json = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments) as! Dictionary<String, AnyObject>
-                    
-                    if let count = json["count"] {
-                        for i in 0...((count as! Int) - 1) {
-                            let name = ((json["results"]![i] as! [String:Any]) ["name"] as! String)
-                            let newCell = DataObject(name: name)
-                            list.append(newCell)
-                        }
+        Alamofire.request(qpath, method: .get, parameters: nil, encoding: URLEncoding.default, headers: headers)
+            .validate(statusCode: 200..<300)
+            .validate(contentType: ["application/json"])
+            .responseObject { (response: DataResponse<CategResponse>) in
+                switch response.result {
+                case .success:
+                    print("success")
+                    let json = response.result.value!.main!
+                    let list = json.map {
+                        DataObject(name: $0.name!, id: $0.id!, children: [])
                     }
-                    //(json?["results"]![0] as! [String:Any]) ["name"] as! String
-                    
                     completionHandler(list)
+                case .failure:
+                        print("error")
                 }
-                catch{
-                    print("json-error")
-                }
-            }else {
-                print(error.debugDescription)
-            }
         }
-        task.resume()
     }
     
     
+    func loadSubList(id: Int, completionHandler:@escaping ([DataObject])->()) -> ()  {
+        let path = "http://185.8.173.210/api/"
+        let qpath = path + "category/"
+        let authorization = "token d0a13a1adeb4507f122706a7ba66bad4e5613821"
+        let headers = ["Authorization": authorization, "Accept": "application/json"]
+        let parameter = ["id": id]
+        
+        Alamofire.request(qpath, method: .get, parameters: parameter, encoding: URLEncoding.default, headers: headers)
+            .validate(statusCode: 200..<300)
+            .validate(contentType: ["application/json"])
+            .responseObject { (response: DataResponse<CategResponse>) in
+                switch response.result {
+                case .success:
+                    let json = response.result.value!.main!
+                    let list = json.map {
+                        DataObject(name: $0.name!, id: $0.id!, children: [])
+                    }
+                    completionHandler(list)
+                case .failure:
+                    print("error")
+                }
+        }
+    }
+    
+    
+    class CategResponse: Mappable {
+        var main: [CategR]?
+        var count: Int?
+        
+        required init?(map: Map){
+            
+        }
+        
+        func mapping(map: Map) {
+            count <- map["count"]
+            main <- map["results"]
+        }
+    }
+    
+    
+    class CategR: Mappable {
+        var id: Int?
+        var name: String?
+        
+        required init?(map: Map){
+            
+        }
+        
+        func mapping(map: Map) {
+            id <- map["id"]
+            name <- map["name"]
+        }
+    }
     
     
     //RATreeView data source
-    
     func treeView(_ treeView: RATreeView, numberOfChildrenOfItem item: Any?) -> Int {
         if let item = item as? DataObject {
             return item.children.count
@@ -136,7 +180,11 @@ class CategoryListVC: UIViewController, RATreeViewDelegate, RATreeViewDataSource
         cell.selectionStyle = .none
         let item = item as! DataObject
         let level = treeView.levelForCell(forItem: item)
-        cell.setup(withTitle: item.name, level: level)
+        cell.setup(withTitle: item.name, id: item.id, level: level)
+        
+        if item.isExpand {
+            cell.expandImage.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI))
+        }
         
         return cell
     }
@@ -144,14 +192,26 @@ class CategoryListVC: UIViewController, RATreeViewDelegate, RATreeViewDataSource
     
     func treeView(_ treeView: RATreeView, didSelectRowForItem item: Any) {
         let cell = categoryList.cell(forItem: item) as! TreeTableViewCell
-        if cell.cellExpand {
-            cell.cellExpand = false
+        let item = treeView.item(for: cell) as! DataObject
+        
+        
+        if item.isExpand {
+            item.isExpand = false
             cell.expandImage.transform = CGAffineTransform.identity
-        }else {
-            cell.cellExpand = true
+        }
+        else {
+            item.isExpand = true
+            if !(item.haveChildren) {
+                loadSubList(id: item.id) { (subList) in
+                    for newItem in subList {
+                        item.addChild(child: newItem)
+                        treeView.insertItems(at: NSIndexSet.init(index: item.children.count-1) as IndexSet, inParent: item, with: RATreeViewRowAnimationNone)
+                    }
+                    treeView.reloadRows(forItems: [subList], with: RATreeViewRowAnimationNone)
+                    item.haveChildren = true
+                }
+            }
             cell.expandImage.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI))
         }
-        
-        
     }
 }

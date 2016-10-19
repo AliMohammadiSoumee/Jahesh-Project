@@ -378,7 +378,7 @@
                                                         </collectionViewFlowLayout>
                                                         <cells>
                                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TopSellersCellIdent" id="6pE-wA-3WD" customClass="TopSellersCell" customModule="Jahesh_Project" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="2.6666666666666665" width="170" height="230"/>
+                                                                <rect key="frame" x="0.0" y="3" width="170" height="230"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                                     <rect key="frame" x="0.0" y="0.0" width="170" height="230"/>
@@ -624,7 +624,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Jgc-xV-9dx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="J9y-Wo-Mez">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ls9-Nj-GmC">
@@ -824,7 +824,7 @@
                         <viewControllerLayoutGuide type="bottom" id="iwn-Mo-c3c"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0el-LI-S6f">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3yp-rv-wMd" userLabel="PlotView">
@@ -841,10 +841,10 @@
                                 <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RecordeCell" rowHeight="50" id="Kga-5e-idE" customClass="RecordeCell" customModule="Jahesh_Project" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="50"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Kga-5e-idE" id="pTn-lx-x7j">
-                                            <frame key="frameInset" width="414" height="49.666666666666664"/>
+                                            <frame key="frameInset" width="375" height="49"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iDl-ub-12D">
@@ -924,11 +924,11 @@
             </objects>
             <point key="canvasLocation" x="183" y="894"/>
         </scene>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="sQU-n9-LXu">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xvC-f5-B02" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="NmX-4c-cqk"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="Exterior" id="NmX-4c-cqk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" id="42r-GY-y7X">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -944,11 +944,11 @@
             </objects>
             <point key="canvasLocation" x="-535" y="-613"/>
         </scene>
-        <!--Item-->
+        <!--Profile-->
         <scene sceneID="U3g-AG-hCv">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PK2-EX-OB6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="mOZ-Lr-jxs"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="Circled User Male" id="mOZ-Lr-jxs"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="8Zb-5R-ggW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -968,7 +968,9 @@
         <image name="4" width="340" height="210"/>
         <image name="5" width="451" height="451"/>
         <image name="Calendar" width="200" height="200"/>
+        <image name="Circled User Male" width="25" height="25"/>
         <image name="Exit" width="25" height="25"/>
+        <image name="Exterior" width="25" height="25"/>
         <image name="Search" width="25" height="25"/>
         <image name="Search-1" width="25" height="25"/>
         <image name="avatar" width="320" height="240"/>

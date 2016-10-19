@@ -67,9 +67,9 @@ class ProductsList: UIViewController, UICollectionViewDelegate, UICollectionView
     
     
     func getDate() -> ([String], [String], [String]) {
-        var titles = [String]()
-        var prices = [String]()
-        var images = [String]()
+        let titles = [String]()
+        let prices = [String]()
+        let images = [String]()
         
         
         return (titles, prices, images)

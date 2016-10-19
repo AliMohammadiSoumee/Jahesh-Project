@@ -14,11 +14,12 @@ class TreeTableViewCell : UITableViewCell {
     let itemImage = UIImageView()
     let expandImage = UIImageView()
     let contentUIView = UIView()
-    var cellExpand = false
     var level = 0
+    var id: Int?
     
-    func setup(withTitle title: String, level : Int) {
+    func setup(withTitle title: String, id: Int, level : Int) {
         
+        self.id = id
         self.level = level
         customTitleLabel.textAlignment = .right
         customTitleLabel.text = title

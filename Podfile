@@ -5,6 +5,7 @@ target 'Jahesh-Project' do
 	pod "RATreeView", "~> 2.1.1"
 	pod “Alamofire”
     	pod 'UIColorRGBA'
+	pod 'AlamofireObjectMapper', '~> 4.0'
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 	

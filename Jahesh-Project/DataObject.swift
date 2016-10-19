@@ -11,16 +11,20 @@ import Foundation
 
 class DataObject
 {
-    var name : String
-    private(set) var children : [DataObject]
+    var name: String
+    var id: Int
+    var children : [DataObject]
+    var haveChildren = false
+    var isExpand = false
 
-    init(name : String, children: [DataObject]) {
+    init(name : String, id: Int, children: [DataObject]) {
         self.name = name
+        self.id = id
         self.children = children
     }
 
-    convenience init(name : String) {
-        self.init(name: name, children: [DataObject]())
+    convenience init(name : String,  id: Int) {
+        self.init(name: name, id: id, children: [DataObject]())
     }
 
     func addChild(child : DataObject) {

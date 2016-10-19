@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6A7E59E58B024AC1D808C101D75AE5D1'
+               BlueprintIdentifier = '9665DDCE4FB63DFC98C7B6C15BD894C1'
                BlueprintName = 'UIColorRGBA'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'UIColorRGBA.framework'>

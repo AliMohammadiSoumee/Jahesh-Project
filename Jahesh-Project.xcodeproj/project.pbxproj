@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1010FA439F8F04111A7B154A /* Pods_Jahesh_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C576CCD4A3B853E1324855 /* Pods_Jahesh_Project.framework */; };
-		A3066F141DA62AFA00584C36 /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3066F131DA62AFA00584C36 /* api.swift */; };
 		A314DF0A1DA5164000C4360D /* DataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A314DF091DA5164000C4360D /* DataObject.swift */; };
 		A3279CF51DAF89510031EBD3 /* RecordeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3279CF41DAF89510031EBD3 /* RecordeCell.swift */; };
 		A3279CF71DAFC82B0031EBD3 /* ProductsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3279CF61DAFC82B0031EBD3 /* ProductsList.swift */; };
@@ -30,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		0F3A47F03E882D84F7C55118 /* Pods-Jahesh-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jahesh-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jahesh-Project/Pods-Jahesh-Project.release.xcconfig"; sourceTree = "<group>"; };
-		A3066F131DA62AFA00584C36 /* api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
 		A314DF091DA5164000C4360D /* DataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataObject.swift; sourceTree = "<group>"; };
 		A3279CF41DAF89510031EBD3 /* RecordeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordeCell.swift; sourceTree = "<group>"; };
 		A3279CF61DAFC82B0031EBD3 /* ProductsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsList.swift; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 				A3279CF41DAF89510031EBD3 /* RecordeCell.swift */,
 				A3279CF61DAFC82B0031EBD3 /* ProductsList.swift */,
 				A3279CF81DAFD2260031EBD3 /* ProductCell.swift */,
-				A3066F131DA62AFA00584C36 /* api.swift */,
 				A39F49081D9BA2CF002755A3 /* Main.storyboard */,
 				A39F490E1D9BA2CF002755A3 /* Assets.xcassets */,
 				A34402291D9D061D0012EDA1 /* irsans_p30download.com.ttf */,
@@ -260,7 +257,6 @@
 				A3279CF71DAFC82B0031EBD3 /* ProductsList.swift in Sources */,
 				A314DF0A1DA5164000C4360D /* DataObject.swift in Sources */,
 				A37965661DA4E9B9005CF48B /* CategoryListVC.swift in Sources */,
-				A3066F141DA62AFA00584C36 /* api.swift in Sources */,
 				A39F49221D9BD6BA002755A3 /* MainViewController.swift in Sources */,
 				A34A1D5E1DA51EFF003C2FC5 /* TreeTableViewCell.swift in Sources */,
 				A39F49201D9BD186002755A3 /* NewProductsCell.swift in Sources */,

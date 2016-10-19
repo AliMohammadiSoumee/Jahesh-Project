@@ -162,7 +162,7 @@ class MainViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ShowCategoryList" {
-            let categoryList: CategoryListVC = segue.destination as! CategoryListVC
+            let _: CategoryListVC = segue.destination as! CategoryListVC
         }
     }
 }
